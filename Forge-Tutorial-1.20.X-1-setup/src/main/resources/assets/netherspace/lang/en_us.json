@@ -1,0 +1,9 @@
+{
+  "item.netherspace.nether_ingot": "Nether Ingot",
+  "item.netherspace.raw_nether": "Raw Nether",
+
+  "block.netherspace.nether_block": "Block of Nether",
+  "block.netherspace.raw_nether_block": "Block of Raw Nether",
+
+  "creativetab.nether_space.tab": "Nether Space"
+}
