@@ -7,6 +7,8 @@
   "item.netherspace.nether_upgrade_smithing_template": "Nether Upgrade Template",
 
   "item.netherspace.americas_fries": "Americas Fries",
+  "item.netherspace.skittle": "Skeetol",
+
   "item.netherspace.nethercone": "Nethercone",
 
   "block.netherspace.nether_block": "Block of Nether",
@@ -16,6 +18,20 @@
   "block.netherspace.end_stone_nether_ore": "Endstone Nether Ore",
 
   "block.netherspace.dragon_roar_block": "Dragon Roar",
+
+  "block.netherspace.nether_stairs": "Nether Stairs",
+  "block.netherspace.nether_slab": "Nether Slab",
+  "block.netherspace.nether_button": "Nether Button",
+  "block.netherspace.nether_pressure_plate": "Nether Pressure Plate",
+  "block.netherspace.nether_fence": "Nether Fence",
+  "block.netherspace.nether_fence_gate": "Nether Fence Gate",
+  "block.netherspace.nether_wall": "Nether Wall",
+  "block.netherspace.nether_door": "Nether Door",
+  "block.netherspace.nether_trapdoor": "Nether Trapdoor",
+
+  "tooltip.netherspace.metal_detector.tooltip": "Finds valuables under the interacted block!",
+  "tooltip.netherspace.dragon_roar_block.tooltip": "A reminder of Her Majesty, The Tyrant Dragon Queen",
+
 
   "creativetab.nether_space.tab": "Nether Space"
 }

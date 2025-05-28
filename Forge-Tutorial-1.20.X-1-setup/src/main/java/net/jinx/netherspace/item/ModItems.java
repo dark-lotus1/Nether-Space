@@ -27,6 +27,9 @@ public class ModItems {
     public static final RegistryObject<Item> AMERICAS_FRIES = ITEMS.register("americas_fries",
             () -> new Item(new Item.Properties().food(ModFoods.AMERICAS_FRIES)));
 
+    public static final RegistryObject<Item> SKITTLE = ITEMS.register("skittle",
+            () -> new Item(new Item.Properties().food(ModFoods.SKITTLE)));
+
     public static final RegistryObject<Item> NETHERCONE = ITEMS.register("nethercone",
             () -> new FuelItem(new Item.Properties(),1000));
 

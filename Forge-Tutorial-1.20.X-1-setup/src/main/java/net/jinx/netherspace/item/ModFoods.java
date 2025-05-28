@@ -6,5 +6,9 @@ import net.minecraft.world.food.FoodProperties;
 
 public class ModFoods {
     public static final FoodProperties AMERICAS_FRIES = new FoodProperties.Builder().nutrition(1).fast()
-            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 1200, 3), 1f).build();
+            .saturationMod(0.0f).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 1200, 3), 1f).build();
+
+    public static final FoodProperties SKITTLE = new FoodProperties.Builder().nutrition(10).fast()
+            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1200, 5), 1f).build();
+
 }

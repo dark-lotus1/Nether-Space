@@ -28,6 +28,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.METAL_DETECTOR.get());
 
                         output.accept(ModItems.AMERICAS_FRIES.get());
+                        output.accept(ModItems.SKITTLE.get());
+
                         output.accept(ModItems.NETHERCONE.get());
 
                         output.accept(ModBlocks.NETHER_BLOCK.get());
@@ -37,6 +39,18 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.END_STONE_NETHER_ORE.get());
 
                         output.accept(ModBlocks.DRAGON_ROAR_BLOCK.get());
+
+                        output.accept(ModBlocks.NETHER_STAIRS.get());
+                        output.accept(ModBlocks.NETHER_SLAB.get());
+                        output.accept(ModBlocks.NETHER_BUTTON.get());
+                        output.accept(ModBlocks.NETHER_PRESSURE_PLATE.get());
+
+                        output.accept(ModBlocks.NETHER_FENCE.get());
+                        output.accept(ModBlocks.NETHER_FENCE_GATE.get());
+                        output.accept(ModBlocks.NETHER_WALL.get());
+
+                        output.accept(ModBlocks.NETHER_DOOR.get());
+                        output.accept(ModBlocks.NETHER_TRAPDOOR.get());
 
                     })
                     .build());
