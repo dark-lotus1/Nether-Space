@@ -1,0 +1,8 @@
+// 1.20.1	2025-05-28T15:12:53.81908	Tags for minecraft:block mod id netherspace
+356cc7c05f0a73936d2f45214b962df98f665439 data/forge/tags/blocks/needs_netherite_tool.json
+6391b760785d378edd84c59e407c74689d4ce461 data/minecraft/tags/blocks/fences.json
+f10558c5c68eb295a9c957f111ba7649f0bb3142 data/minecraft/tags/blocks/fence_gates.json
+3924b652abf7b1a5b78c0fc12c27c75e7c21984d data/minecraft/tags/blocks/mineable/pickaxe.json
+89053f07d2c914547ae5a6c04d52c3639c007ec5 data/minecraft/tags/blocks/needs_diamond_tool.json
+a9b65c8d35e47f7dc4c9273c9bb9cc472dc3b113 data/minecraft/tags/blocks/walls.json
+85e5eef03ef6cc33dbff2fe4ee1acf7382faa06f data/netherspace/tags/blocks/metal_detector_valuables.json
