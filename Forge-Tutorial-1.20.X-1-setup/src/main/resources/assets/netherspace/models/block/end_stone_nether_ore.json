@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "netherspace:block/end_stone_nether_ore"
+  }
+}

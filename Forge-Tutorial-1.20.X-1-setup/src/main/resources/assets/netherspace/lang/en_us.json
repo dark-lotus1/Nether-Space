@@ -2,8 +2,20 @@
   "item.netherspace.nether_ingot": "Nether Ingot",
   "item.netherspace.raw_nether": "Raw Nether",
 
+  "item.netherspace.metal_detector": "Metal Detector",
+
+  "item.netherspace.nether_upgrade_smithing_template": "Nether Upgrade Template",
+
+  "item.netherspace.americas_fries": "Americas Fries",
+  "item.netherspace.nethercone": "Nethercone",
+
   "block.netherspace.nether_block": "Block of Nether",
   "block.netherspace.raw_nether_block": "Block of Raw Nether",
+
+  "block.netherspace.nether_nether_ore": "Nether Ore",
+  "block.netherspace.end_stone_nether_ore": "Endstone Nether Ore",
+
+  "block.netherspace.dragon_roar_block": "Dragon Roar",
 
   "creativetab.nether_space.tab": "Nether Space"
 }

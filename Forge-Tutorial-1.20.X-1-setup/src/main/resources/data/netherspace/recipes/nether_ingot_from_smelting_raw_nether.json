@@ -1,8 +1,8 @@
 {
   "type": "minecraft:smelting",
   "category": "misc",
-  "cookingtime": 2000,
-  "experience": 99,
+  "cookingtime": 200,
+  "experience": 50,
   "group": "nether_ingot",
   "ingredient": {
     "item": "netherspace:raw_nether"

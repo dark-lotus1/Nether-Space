@@ -19,12 +19,24 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.NETHER_INGOT.get()))
                     .title(Component.translatable("creativetab.nether_space.tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+
+                        output.accept(ModItems.NETHER_UPGRADE_SMITHING_TEMPLATE.get());
+
                         output.accept(ModItems.NETHER_INGOT.get());
                         output.accept(ModItems.RAW_NETHER.get());
+
+                        output.accept(ModItems.METAL_DETECTOR.get());
+
+                        output.accept(ModItems.AMERICAS_FRIES.get());
+                        output.accept(ModItems.NETHERCONE.get());
 
                         output.accept(ModBlocks.NETHER_BLOCK.get());
                         output.accept(ModBlocks.RAW_NETHER_BLOCK.get());
 
+                        output.accept(ModBlocks.NETHER_NETHER_ORE.get());
+                        output.accept(ModBlocks.END_STONE_NETHER_ORE.get());
+
+                        output.accept(ModBlocks.DRAGON_ROAR_BLOCK.get());
 
                     })
                     .build());

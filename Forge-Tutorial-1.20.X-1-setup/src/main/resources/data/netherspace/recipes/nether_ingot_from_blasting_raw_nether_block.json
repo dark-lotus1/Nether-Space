@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 800,
+  "experience": 15000,
+  "group": "nether_ingot",
+  "ingredient": {
+    "item": "netherspace:raw_nether_block"
+  },
+  "result": {
+    "count": "9",
+    "item": "netherspace:nether_ingot"
+  }
+}
