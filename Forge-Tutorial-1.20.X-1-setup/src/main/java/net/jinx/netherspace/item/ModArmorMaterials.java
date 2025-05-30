@@ -2,6 +2,7 @@ package net.jinx.netherspace.item;
 
 import net.jinx.netherspace.NetherSpace;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -9,7 +10,10 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    ;
+    NETHER("nether", 999999999, new int[]{999999999, 999999999, 999999999, 999999999}, 999999999,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 999999999f, 999999999f, () -> Ingredient.of(ModItems.NETHER_INGOT.get())),
+    HORI("hori", 999999999, new int[]{999999999, 999999999, 999999999, 999999999}, 999999999,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 999999999f, 999999999f, () -> Ingredient.of(ModItems.HORI_INGOT.get()));
 
     private final String name;
     private final int durabilityMultiplier;
@@ -20,7 +24,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final float knockbackResistance;
     private final Supplier<Ingredient> repairIngredient;
 
-    private static final int[] BASE_DURABILITY = { 1300, 999999999, 999999999, 999999999};
+    private static final int[] BASE_DURABILITY = { 13, 17, 15, 11};
 
     ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantmentValue, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;

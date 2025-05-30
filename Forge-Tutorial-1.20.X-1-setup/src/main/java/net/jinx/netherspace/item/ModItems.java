@@ -15,6 +15,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> NETHER_INGOT = ITEMS.register("nether_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LUMIX_INGOT = ITEMS.register("lumix_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HORI_INGOT = ITEMS.register("hori_ingot",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_NETHER = ITEMS.register("raw_nether",
             () -> new Item(new Item.Properties()));
 
@@ -44,6 +48,22 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_HOE = ITEMS.register("nether_hoe",
             () -> new HoeItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
+
+    public static final RegistryObject<Item> LUMIX_GREAT_SWORD = ITEMS.register("lumix_great_sword",
+            () -> new HoeItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
+
+    public static final RegistryObject<Item> NETHER_HELMET = ITEMS.register("nether_helmet",
+            () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.HELMET, new  Item.Properties()));
+    public static final RegistryObject<Item> NETHER_CHESTPLATE = ITEMS.register("nether_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
+    public static final RegistryObject<Item> NETHER_LEGGING = ITEMS.register("nether_leggings",
+            () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.LEGGINGS, new  Item.Properties()));
+    public static final RegistryObject<Item> NETHER_BOOTS = ITEMS.register("nether_boots",
+            () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.BOOTS, new  Item.Properties()));
+
+    public static final RegistryObject<Item> HORI_BOOTS = ITEMS.register("hori_boots",
+            () -> new ArmorItem(ModArmorMaterials.HORI, ArmorItem.Type.BOOTS, new  Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

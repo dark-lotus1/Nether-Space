@@ -1,5 +1,7 @@
 {
   "item.netherspace.nether_ingot": "Nether Ingot",
+  "item.netherspace.lumix_ingot": "Lumix Ingot",
+  "item.netherspace.hori_ingot": "Hori Ingot",
   "item.netherspace.raw_nether": "Raw Nether",
 
   "item.netherspace.metal_detector": "Metal Detector",
@@ -11,11 +13,20 @@
 
   "item.netherspace.nethercone": "Nethercone",
 
-  "item.netherspace.nethersword": "Nether Sword",
-  "item.netherspace.netheraxe": "Nether Axe",
-  "item.netherspace.netherpickaxe": "Nether Pickaxe",
-  "item.netherspace.nethercone": "Nethercone",
-  "item.netherspace.nethercone": "Nethercone",
+  "item.netherspace.nether_sword": "Nether Sword",
+  "item.netherspace.nether_axe": "Nether Axe",
+  "item.netherspace.nether_pickaxe": "Nether Pickaxe",
+  "item.netherspace.nether_shovel": "Nether Shovel",
+  "item.netherspace.nether_hoe": "Nether Hoe",
+
+  "item.netherspace.lumix_great_sword": "Lumix's Great Sword",
+
+  "item.netherspace.nether_helmet": "Nether Helmet",
+  "item.netherspace.nether_chestplate": "Nether Chestplate",
+  "item.netherspace.nether_legging": "Nether Leggings",
+  "item.netherspace.nether_boots": "Nether Boots",
+
+  "item.netherspace.hori_boots": "Hori's Boots",
 
   "block.netherspace.nether_block": "Block of Nether",
   "block.netherspace.raw_nether_block": "Block of Raw Nether",

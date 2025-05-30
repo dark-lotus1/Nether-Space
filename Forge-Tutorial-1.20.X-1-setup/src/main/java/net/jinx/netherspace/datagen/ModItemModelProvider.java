@@ -21,6 +21,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.NETHER_INGOT);
+        simpleItem(ModItems.LUMIX_INGOT);
+        simpleItem(ModItems.HORI_INGOT);
         simpleItem(ModItems.RAW_NETHER);
 
         simpleItem(ModItems.METAL_DETECTOR);
@@ -47,6 +49,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.NETHER_PICKAXE);
         handheldItem(ModItems.NETHER_SHOVEL);
         handheldItem(ModItems.NETHER_HOE);
+
+        handheldItem(ModItems.LUMIX_GREAT_SWORD);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NETHER_UPGRADE_SMITHING_TEMPLATE.get());
 
                         output.accept(ModItems.NETHER_INGOT.get());
+                        output.accept(ModItems.LUMIX_INGOT.get());
+                        output.accept(ModItems.HORI_INGOT.get());
                         output.accept(ModItems.RAW_NETHER.get());
 
                         output.accept(ModItems.METAL_DETECTOR.get());
@@ -37,6 +39,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NETHER_PICKAXE.get());
                         output.accept(ModItems.NETHER_SHOVEL.get());
                         output.accept(ModItems.NETHER_HOE.get());
+
+                        output.accept(ModItems.LUMIX_GREAT_SWORD.get());
+
+                        output.accept(ModItems.NETHER_HELMET.get());
+                        output.accept(ModItems.NETHER_CHESTPLATE.get());
+                        output.accept(ModItems.NETHER_LEGGING.get());
+                        output.accept(ModItems.NETHER_BOOTS.get());
+
+                        output.accept(ModItems.HORI_BOOTS.get());
 
                         output.accept(ModBlocks.NETHER_BLOCK.get());
                         output.accept(ModBlocks.RAW_NETHER_BLOCK.get());
