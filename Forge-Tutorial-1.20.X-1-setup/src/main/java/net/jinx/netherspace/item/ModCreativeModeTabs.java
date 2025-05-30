@@ -44,7 +44,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.NETHER_HELMET.get());
                         output.accept(ModItems.NETHER_CHESTPLATE.get());
-                        output.accept(ModItems.NETHER_LEGGING.get());
+                        output.accept(ModItems.NETHER_LEGGINGS.get());
                         output.accept(ModItems.NETHER_BOOTS.get());
 
                         output.accept(ModItems.HORI_BOOTS.get());

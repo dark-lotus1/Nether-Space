@@ -56,7 +56,7 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.HELMET, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_CHESTPLATE = ITEMS.register("nether_chestplate",
             () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
-    public static final RegistryObject<Item> NETHER_LEGGING = ITEMS.register("nether_leggings",
+    public static final RegistryObject<Item> NETHER_LEGGINGS = ITEMS.register("nether_leggings",
             () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.LEGGINGS, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_BOOTS = ITEMS.register("nether_boots",
             () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.BOOTS, new  Item.Properties()));
