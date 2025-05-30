@@ -35,17 +35,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                         ModBlocks.DRAGON_ROAR_BLOCK.get());
 
 
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.NETHER_BLOCK.get());
-
-        this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.RAW_NETHER_BLOCK.get());
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
-                .add(ModBlocks.NETHER_NETHER_ORE.get());
-
-        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
+                .add(ModBlocks.NETHER_NETHER_ORE.get())
                 .add(ModBlocks.END_STONE_NETHER_ORE.get());
+
+        this.tag(ModTags.Blocks.NEEDS_NETHER_TOOL)
+                .add(ModBlocks.NETHER_BLOCK.get())
+                .add(ModBlocks.RAW_NETHER_BLOCK.get())
+                .add(ModBlocks.DRAGON_ROAR_BLOCK.get());
 
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.NETHER_FENCE.get());

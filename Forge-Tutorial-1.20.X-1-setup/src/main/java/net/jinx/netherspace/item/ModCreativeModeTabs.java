@@ -32,6 +32,12 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.NETHERCONE.get());
 
+                        output.accept(ModItems.NETHER_SWORD.get());
+                        output.accept(ModItems.NETHER_AXE.get());
+                        output.accept(ModItems.NETHER_PICKAXE.get());
+                        output.accept(ModItems.NETHER_SHOVEL.get());
+                        output.accept(ModItems.NETHER_HOE.get());
+
                         output.accept(ModBlocks.NETHER_BLOCK.get());
                         output.accept(ModBlocks.RAW_NETHER_BLOCK.get());
 

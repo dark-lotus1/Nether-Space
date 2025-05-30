@@ -3,7 +3,7 @@ package net.jinx.netherspace.item;
 import net.jinx.netherspace.NetherSpace;
 import net.jinx.netherspace.item.custom.FuelItem;
 import net.jinx.netherspace.item.custom.MetalDetectorItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -32,6 +32,18 @@ public class ModItems {
 
     public static final RegistryObject<Item> NETHERCONE = ITEMS.register("nethercone",
             () -> new FuelItem(new Item.Properties(),1000));
+
+
+    public static final RegistryObject<Item> NETHER_SWORD = ITEMS.register("nether_sword",
+            () -> new SwordItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
+    public static final RegistryObject<Item> NETHER_AXE = ITEMS.register("nether_axe",
+            () -> new AxeItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
+    public static final RegistryObject<Item> NETHER_PICKAXE = ITEMS.register("nether_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
+    public static final RegistryObject<Item> NETHER_SHOVEL = ITEMS.register("nether_shovel",
+            () -> new ShovelItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
+    public static final RegistryObject<Item> NETHER_HOE = ITEMS.register("nether_hoe",
+            () -> new HoeItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
