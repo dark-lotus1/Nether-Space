@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-30T16:01:01.2801818	Item Models: netherspace
+// 1.20.1	2025-05-30T17:06:11.1981271	Item Models: netherspace
 ff440191d8f4225da3b85729f8979cf122721794 assets/netherspace/models/item/americas_fries.json
 4857f75d3b57de3e79be2d0aac6d8663b7bbc52a assets/netherspace/models/item/hori_boots.json
 002ba5c3437764ecdb88528e39569f76cc91b25a assets/netherspace/models/item/hori_boots_amethyst_trim.json
@@ -12,6 +12,7 @@ dd47de2831047aaf3e515b3f545473647114e290 assets/netherspace/models/item/hori_boo
 efa6611d75e1c99895afbcf8a60c190aa8afb92e assets/netherspace/models/item/hori_boots_quartz_trim.json
 5cb0e951530e9b7e93afeaad294d0f55e2ed0e5d assets/netherspace/models/item/hori_boots_redstone_trim.json
 5db092b58b9f06aadcd27158809b85e77a77ed88 assets/netherspace/models/item/hori_ingot.json
+5804df86b2c56eece3f031ba0799a759a5326fbd assets/netherspace/models/item/jordan_katana.json
 acf92771c0ca89d19205213843de38cd1b0afd58 assets/netherspace/models/item/lumix_great_sword.json
 d8457084387d6ca5d86cf84872395c3689cc3e7c assets/netherspace/models/item/lumix_ingot.json
 c43f8546ac9750e3f7eb6dafb62e234c3f8a129d assets/netherspace/models/item/metal_detector.json
@@ -78,3 +79,4 @@ eedf08750cf49d45d84cc79af8708ea6cd3e9cf5 assets/netherspace/models/item/nether_t
 86ffd9815bc83b94f1d8cf094dd982973c4974d9 assets/netherspace/models/item/nether_wall.json
 bf9b5b52849e4beb34f6f32b751e1c7c0ce7a769 assets/netherspace/models/item/raw_nether.json
 e7147b0ec8d2af981bae83935d472337632872bf assets/netherspace/models/item/skittle.json
+1c8c60621d48cf108497516687cd8d69a917e3fe assets/netherspace/models/item/skullox_mace.json

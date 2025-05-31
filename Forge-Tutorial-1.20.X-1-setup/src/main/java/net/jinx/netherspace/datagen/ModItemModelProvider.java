@@ -73,6 +73,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.NETHER_HOE);
 
         handheldItem(ModItems.LUMIX_GREAT_SWORD);
+        handheldItem(ModItems.SKULLOX_MACE);
+        handheldItem(ModItems.JORDAN_KATANA);
 
         trimmedArmorItem(ModItems.NETHER_HELMET);
         trimmedArmorItem(ModItems.NETHER_CHESTPLATE);

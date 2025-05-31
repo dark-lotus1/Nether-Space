@@ -41,6 +41,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NETHER_HOE.get());
 
                         output.accept(ModItems.LUMIX_GREAT_SWORD.get());
+                        output.accept(ModItems.SKULLOX_MACE.get());
+                        output.accept(ModItems.JORDAN_KATANA.get());
 
                         output.accept(ModItems.NETHER_HELMET.get());
                         output.accept(ModItems.NETHER_CHESTPLATE.get());

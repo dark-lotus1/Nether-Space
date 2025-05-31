@@ -50,7 +50,11 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
 
     public static final RegistryObject<Item> LUMIX_GREAT_SWORD = ITEMS.register("lumix_great_sword",
-            () -> new SwordItem(ModToolTiers.NETHER, 999999999, 999999, new  Item.Properties()));
+            () -> new SwordItem(ModToolTiers.NETHER, 9999999, 0.1f, new  Item.Properties()));
+    public static final RegistryObject<Item> SKULLOX_MACE = ITEMS.register("skullox_mace",
+            () -> new SwordItem(ModToolTiers.NETHER, 99999, 0.3f, new  Item.Properties()));
+    public static final RegistryObject<Item> JORDAN_KATANA = ITEMS.register("jordan_katana",
+            () -> new SwordItem(ModToolTiers.NETHER, 99999, 0.5f, new  Item.Properties()));
 
     public static final RegistryObject<Item> NETHER_HELMET = ITEMS.register("nether_helmet",
             () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.HELMET, new  Item.Properties()));
