@@ -3,6 +3,7 @@ package net.jinx.netherspace.item;
 import net.jinx.netherspace.NetherSpace;
 import net.jinx.netherspace.item.custom.FuelItem;
 import net.jinx.netherspace.item.custom.MetalDetectorItem;
+import net.jinx.netherspace.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -57,13 +58,13 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.NETHER, 99999, 0.5f, new  Item.Properties()));
 
     public static final RegistryObject<Item> NETHER_HELMET = ITEMS.register("nether_helmet",
-            () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.HELMET, new  Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.HELMET, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_CHESTPLATE = ITEMS.register("nether_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_LEGGINGS = ITEMS.register("nether_leggings",
-            () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.LEGGINGS, new  Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.LEGGINGS, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_BOOTS = ITEMS.register("nether_boots",
-            () -> new ArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.BOOTS, new  Item.Properties()));
+            () -> new ModArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.BOOTS, new  Item.Properties()));
 
     public static final RegistryObject<Item> HORI_BOOTS = ITEMS.register("hori_boots",
             () -> new ArmorItem(ModArmorMaterials.HORI, ArmorItem.Type.BOOTS, new  Item.Properties()));
