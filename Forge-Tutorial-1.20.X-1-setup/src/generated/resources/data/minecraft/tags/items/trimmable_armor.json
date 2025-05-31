@@ -3,6 +3,11 @@
     "netherspace:nether_helmet",
     "netherspace:nether_chestplate",
     "netherspace:nether_leggings",
-    "netherspace:nether_boots"
+    "netherspace:nether_boots",
+    "netherspace:jake_helmet",
+    "netherspace:jake_chestplate",
+    "netherspace:jake_leggings",
+    "netherspace:jake_boots",
+    "netherspace:hori_boots"
   ]
 }

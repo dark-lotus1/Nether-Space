@@ -12,10 +12,9 @@ public class ModFoods {
             .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1200, 5), 1f).build();
 
     public static final FoodProperties MTG_SWAMP = new FoodProperties.Builder().nutrition(10).fast().alwaysEat()
-            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.HARM, 1, 2), 1f)
-            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1200, 5), 1f)
-            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.INVISIBILITY, 1200, 5), 1f)
-            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1200, 5), 1f)
+            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.HARM, 1, 1), 1f)
+            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_BOOST, 999999, 5), 1f)
+            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.INVISIBILITY, 999999, 5), 1f)
+            .saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 999999, 5), 1f)
             .build();
-
 }

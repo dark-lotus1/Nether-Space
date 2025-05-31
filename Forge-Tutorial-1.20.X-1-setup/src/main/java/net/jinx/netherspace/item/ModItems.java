@@ -16,6 +16,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> NETHER_INGOT = ITEMS.register("nether_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> JAKE = ITEMS.register("jake",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LUMIX_INGOT = ITEMS.register("lumix_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HORI_INGOT = ITEMS.register("hori_ingot",
@@ -66,6 +68,15 @@ public class ModItems {
             () -> new ModArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.LEGGINGS, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_BOOTS = ITEMS.register("nether_boots",
             () -> new ModArmorItem(ModArmorMaterials.NETHER, ArmorItem.Type.BOOTS, new  Item.Properties()));
+
+    public static final RegistryObject<Item> JAKE_HELMET = ITEMS.register("jake_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.JAKE, ArmorItem.Type.HELMET, new  Item.Properties()));
+    public static final RegistryObject<Item> JAKE_CHESTPLATE = ITEMS.register("jake_chestplate",
+            () -> new ModArmorItem(ModArmorMaterials.JAKE, ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
+    public static final RegistryObject<Item> JAKE_LEGGINGS = ITEMS.register("jake_leggings",
+            () -> new ModArmorItem(ModArmorMaterials.JAKE, ArmorItem.Type.LEGGINGS, new  Item.Properties()));
+    public static final RegistryObject<Item> JAKE_BOOTS = ITEMS.register("jake_boots",
+            () -> new ModArmorItem(ModArmorMaterials.JAKE, ArmorItem.Type.BOOTS, new  Item.Properties()));
 
     public static final RegistryObject<Item> HORI_BOOTS = ITEMS.register("hori_boots",
             () -> new ArmorItem(ModArmorMaterials.HORI, ArmorItem.Type.BOOTS, new  Item.Properties()));

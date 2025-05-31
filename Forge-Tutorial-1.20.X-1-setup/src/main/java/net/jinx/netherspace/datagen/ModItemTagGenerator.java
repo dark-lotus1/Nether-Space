@@ -24,7 +24,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.NETHER_HELMET.get(),
                         ModItems.NETHER_CHESTPLATE.get(),
                         ModItems.NETHER_LEGGINGS.get(),
-                        ModItems.NETHER_BOOTS.get()
+                        ModItems.NETHER_BOOTS.get(),
+
+                        ModItems.JAKE_HELMET.get(),
+                        ModItems.JAKE_CHESTPLATE.get(),
+                        ModItems.JAKE_LEGGINGS.get(),
+                        ModItems.JAKE_BOOTS.get(),
+
+                        ModItems.HORI_BOOTS.get()
                         );
     }
 }

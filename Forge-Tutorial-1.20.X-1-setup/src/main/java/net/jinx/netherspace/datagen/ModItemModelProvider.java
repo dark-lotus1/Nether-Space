@@ -43,6 +43,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.NETHER_INGOT);
+        simpleItem(ModItems.JAKE);
         simpleItem(ModItems.LUMIX_INGOT);
         simpleItem(ModItems.HORI_INGOT);
         simpleItem(ModItems.RAW_NETHER);
@@ -83,6 +84,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.NETHER_CHESTPLATE);
         trimmedArmorItem(ModItems.NETHER_LEGGINGS);
         trimmedArmorItem(ModItems.NETHER_BOOTS);
+
+        trimmedArmorItem(ModItems.JAKE_HELMET);
+        trimmedArmorItem(ModItems.JAKE_CHESTPLATE);
+        trimmedArmorItem(ModItems.JAKE_LEGGINGS);
+        trimmedArmorItem(ModItems.JAKE_BOOTS);
 
         trimmedArmorItem(ModItems.HORI_BOOTS);
     }

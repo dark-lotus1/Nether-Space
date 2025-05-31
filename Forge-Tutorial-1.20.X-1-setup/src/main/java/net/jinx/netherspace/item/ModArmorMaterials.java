@@ -12,7 +12,10 @@ public enum ModArmorMaterials implements ArmorMaterial {
     NETHER("nether", 999999999, new int[]{999999999, 999999999, 999999999, 999999999}, 999999999,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 999999999f, 999999999f, () -> Ingredient.of(ModItems.NETHER_INGOT.get())),
     HORI("hori", 999999999, new int[]{999999999, 999999999, 999999999, 999999999}, 999999999,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 999999999f, 999999999f, () -> Ingredient.of(ModItems.HORI_INGOT.get()));
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 999999999f, 999999999f, () -> Ingredient.of(ModItems.HORI_INGOT.get())),
+    JAKE("jake", 999, new int[]{999, 999, 999, 999}, 999,
+    SoundEvents.ARMOR_EQUIP_NETHERITE, 999f, 999f, () -> Ingredient.of(ModItems.JAKE.get()));
+
 
     private final String name;
     private final int durabilityMultiplier;

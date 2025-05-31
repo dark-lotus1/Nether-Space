@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NETHER_UPGRADE_SMITHING_TEMPLATE.get());
 
                         output.accept(ModItems.NETHER_INGOT.get());
+                        output.accept(ModItems.JAKE.get());
                         output.accept(ModItems.LUMIX_INGOT.get());
                         output.accept(ModItems.HORI_INGOT.get());
                         output.accept(ModItems.RAW_NETHER.get());
@@ -49,6 +50,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NETHER_CHESTPLATE.get());
                         output.accept(ModItems.NETHER_LEGGINGS.get());
                         output.accept(ModItems.NETHER_BOOTS.get());
+
+                        output.accept(ModItems.JAKE_HELMET.get());
+                        output.accept(ModItems.JAKE_CHESTPLATE.get());
+                        output.accept(ModItems.JAKE_LEGGINGS.get());
+                        output.accept(ModItems.JAKE_BOOTS.get());
 
                         output.accept(ModItems.HORI_BOOTS.get());
 
