@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.AMERICAS_FRIES.get());
                         output.accept(ModItems.SKITTLE.get());
+                        output.accept(ModItems.MTG_SWAMP.get());
 
                         output.accept(ModItems.NETHERCONE.get());
 

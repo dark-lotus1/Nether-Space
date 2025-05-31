@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-30T17:06:11.1981271	Item Models: netherspace
+// 1.20.1	2025-05-30T23:57:46.3323108	Item Models: netherspace
 ff440191d8f4225da3b85729f8979cf122721794 assets/netherspace/models/item/americas_fries.json
 4857f75d3b57de3e79be2d0aac6d8663b7bbc52a assets/netherspace/models/item/hori_boots.json
 002ba5c3437764ecdb88528e39569f76cc91b25a assets/netherspace/models/item/hori_boots_amethyst_trim.json
@@ -16,6 +16,7 @@ efa6611d75e1c99895afbcf8a60c190aa8afb92e assets/netherspace/models/item/hori_boo
 acf92771c0ca89d19205213843de38cd1b0afd58 assets/netherspace/models/item/lumix_great_sword.json
 d8457084387d6ca5d86cf84872395c3689cc3e7c assets/netherspace/models/item/lumix_ingot.json
 c43f8546ac9750e3f7eb6dafb62e234c3f8a129d assets/netherspace/models/item/metal_detector.json
+ac5bbe87760df60a64570b743373f270d600184d assets/netherspace/models/item/mtg_swamp.json
 5ea95f13955a558ed0e080594d8e06cdba0b0520 assets/netherspace/models/item/nethercone.json
 0d2f38f1a954600ba9f2b3f1cfe058ae45fb463b assets/netherspace/models/item/nether_axe.json
 ed5efe1d212ddfbafe25e0c5e075e86a44729f13 assets/netherspace/models/item/nether_boots.json

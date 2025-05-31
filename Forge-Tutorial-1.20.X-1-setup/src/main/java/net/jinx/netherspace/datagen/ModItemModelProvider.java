@@ -49,8 +49,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.NETHERCONE);
+
         simpleItem(ModItems.AMERICAS_FRIES);
         simpleItem(ModItems.SKITTLE);
+        simpleItem(ModItems.MTG_SWAMP);
+
         simpleItem(ModItems.NETHER_UPGRADE_SMITHING_TEMPLATE);
 
         simpleBlockItem(ModBlocks.NETHER_DOOR);
