@@ -21,6 +21,7 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> DRAGON_ROAR_BLOCK_PLACE = registerSoundEvents("dragon_roar_block_place");
     public static final RegistryObject<SoundEvent> DRAGON_ROAR_BLOCK_HIT = registerSoundEvents("dragon_roar_block_hit");
 
+    public static final RegistryObject<SoundEvent> BAR_BRAWL = registerSoundEvents("bar_brawl");
 
     public static final ForgeSoundType DRAGON_ROAR_BLOCK_SOUNDS = new ForgeSoundType(1f, 1f,
             ModSounds.DRAGON_ROAR_BLOCK_BREAK,

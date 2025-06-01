@@ -34,6 +34,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SKITTLE.get());
                         output.accept(ModItems.MTG_SWAMP.get());
 
+                        output.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+
                         output.accept(ModItems.NETHERCONE.get());
 
                         output.accept(ModItems.NETHER_SWORD.get());

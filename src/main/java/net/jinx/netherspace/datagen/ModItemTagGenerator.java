@@ -33,5 +33,13 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
                         ModItems.HORI_BOOTS.get()
                         );
+
+        this.tag(ItemTags.MUSIC_DISCS)
+                .add(ModItems.BAR_BRAWL_MUSIC_DISC.get()
+                );
+
+        this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(ModItems.BAR_BRAWL_MUSIC_DISC.get()
+                );
     }
 }

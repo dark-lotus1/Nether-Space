@@ -34,5 +34,13 @@
     "sounds": [
       "netherspace:dragon_roar_block_fall"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "netherspace:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }
