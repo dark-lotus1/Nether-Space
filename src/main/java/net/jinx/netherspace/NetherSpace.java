@@ -5,6 +5,7 @@ import net.jinx.netherspace.block.ModBlocks;
 import net.jinx.netherspace.item.ModCreativeModeTabs;
 import net.jinx.netherspace.item.ModItems;
 import net.jinx.netherspace.loot.ModLootModifiers;
+import net.jinx.netherspace.sound.ModSounds;
 import net.jinx.netherspace.villager.ModVillagers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +35,8 @@ public class NetherSpace {
 
         ModLootModifiers.register(modEventBus);
         ModVillagers.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
