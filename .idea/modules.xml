@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Forge-Tutorial-1.20.X-1-setup.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Forge-Tutorial-1.20.X-1-setup.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Forge-Tutorial-1.20.X-1-setup.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Forge-Tutorial-1.20.X-1-setup.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Nether-Space-1.20.1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Nether-Space-1.20.1.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Nether-Space-1.20.1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Nether-Space-1.20.1.test.iml" />
     </modules>

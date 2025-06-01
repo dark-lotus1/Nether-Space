@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "netherspace:block/nether_slab"
+    },
+    "type=double": {
+      "model": "netherspace:block/nether_block"
+    },
+    "type=top": {
+      "model": "netherspace:block/nether_slab_top"
+    }
+  }
+}

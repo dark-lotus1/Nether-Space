@@ -1,0 +1,6 @@
+// 1.20.1	2025-05-31T15:44:21.2176163	Global Loot Modifiers : netherspace
+c3bcf6bedf688815232982f539052816fd183586 data/forge/loot_modifiers/global_loot_modifiers.json
+3cc8aef6b3bed6fb3e0132d8229944cfdf325a6c data/netherspace/loot_modifiers/americas_fries_from_zombie.json
+53734bf36f76cab68cc863db5b52e20fe30b1c10 data/netherspace/loot_modifiers/metal_detector_from_bastion_treasure.json
+68dac888660f9db3eed89e92345d760d65517671 data/netherspace/loot_modifiers/mtg_swamp_from_soul_soil.json
+51c55c6898e9472421a2106ff730c59893a973ed data/netherspace/loot_modifiers/nethercone_from_nether_sprouts.json

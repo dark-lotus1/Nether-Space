@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 1.0,
+  "group": "nether",
+  "ingredient": {
+    "item": "netherspace:nether_nether_ore"
+  },
+  "result": "netherspace:nether_ingot"
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "netherspace:block/nether_pressure_plate"
+    },
+    "powered=true": {
+      "model": "netherspace:block/nether_pressure_plate_down"
+    }
+  }
+}

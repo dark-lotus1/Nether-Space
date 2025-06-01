@@ -1,0 +1,14 @@
+{
+  "type": "netherspace:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:soul_soil",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.001,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "netherspace:mtg_swamp"
+}

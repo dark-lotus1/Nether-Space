@@ -4,10 +4,10 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Forge-Tutorial-1.20.X-1-setup" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Forge-Tutorial-1.20.X-1-setup" />
+            <option value="$PROJECT_DIR$" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="true" />
