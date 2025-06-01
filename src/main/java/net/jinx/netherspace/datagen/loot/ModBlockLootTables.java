@@ -40,6 +40,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.NETHER_FENCE_GATE.get());
         this.dropSelf(ModBlocks.NETHER_WALL.get());
 
+        this.dropSelf(ModBlocks.GEM_POLISHING_STATION.get());
+
         this.add(ModBlocks.NETHER_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.NETHER_SLAB.get()));
         this.add(ModBlocks.NETHER_DOOR.get(),

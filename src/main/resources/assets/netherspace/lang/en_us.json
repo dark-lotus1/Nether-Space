@@ -41,6 +41,8 @@
   "item.netherspace.skuly_mask": "Skuly's Mask",
   "item.netherspace.hori_boots": "Hori's Boots",
 
+  "item.netherspace.rhino_spawn_egg": "Rhino Spawn Egg",
+
   "block.netherspace.nether_block": "Block of Nether",
   "block.netherspace.raw_nether_block": "Block of Raw Nether",
 
@@ -58,6 +60,12 @@
   "block.netherspace.nether_wall": "Nether Wall",
   "block.netherspace.nether_door": "Nether Door",
   "block.netherspace.nether_trapdoor": "Nether Trapdoor",
+
+
+
+
+
+  "block.netherspace.gem_polishing_station": "Gem Polishing Station",
 
   "tooltip.netherspace.metal_detector.tooltip": "Finds valuables under the interacted block!",
   "tooltip.netherspace.dragon_roar_block.tooltip": "A reminder of Her Majesty, The Tyrant Dragon Queen",

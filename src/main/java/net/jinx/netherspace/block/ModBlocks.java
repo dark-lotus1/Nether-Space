@@ -2,6 +2,7 @@ package net.jinx.netherspace.block;
 
 import net.jinx.netherspace.NetherSpace;
 import net.jinx.netherspace.block.custom.DragonRoarBlock;
+import net.jinx.netherspace.block.custom.GemPolishingStationBlock;
 import net.jinx.netherspace.item.ModItems;
 import net.jinx.netherspace.sound.ModSounds;
 import net.minecraft.sounds.SoundEvents;
@@ -61,6 +62,13 @@ public class ModBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.CHERRY));
     public static final RegistryObject<Block> NETHER_TRAPDOOR = registerBlock("nether_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.CHERRY));
+
+
+
+
+
+    public static final RegistryObject<Block> GEM_POLISHING_STATION = registerBlock("gem_polishing_station_block",
+            () -> new GemPolishingStationBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -62,6 +62,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SKULY_MASK.get());
                         output.accept(ModItems.HORI_BOOTS.get());
 
+                        output.accept(ModItems.RHINO_SPAWN_EGG.get());
+
                         output.accept(ModBlocks.NETHER_BLOCK.get());
                         output.accept(ModBlocks.RAW_NETHER_BLOCK.get());
 
@@ -81,6 +83,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.NETHER_DOOR.get());
                         output.accept(ModBlocks.NETHER_TRAPDOOR.get());
+
+                        output.accept(ModBlocks.GEM_POLISHING_STATION.get());
 
                     })
                     .build());

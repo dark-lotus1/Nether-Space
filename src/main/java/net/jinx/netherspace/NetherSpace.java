@@ -2,11 +2,18 @@ package net.jinx.netherspace;
 
 import com.mojang.logging.LogUtils;
 import net.jinx.netherspace.block.ModBlocks;
+import net.jinx.netherspace.block.entity.ModBlockEntities;
+import net.jinx.netherspace.entity.ModEntities;
+import net.jinx.netherspace.entity.client.RhinoRenderer;
 import net.jinx.netherspace.item.ModCreativeModeTabs;
 import net.jinx.netherspace.item.ModItems;
 import net.jinx.netherspace.loot.ModLootModifiers;
+import net.jinx.netherspace.screen.GemPolishingStationScreen;
+import net.jinx.netherspace.screen.ModMenuTypes;
 import net.jinx.netherspace.sound.ModSounds;
 import net.jinx.netherspace.villager.ModVillagers;
+import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -19,6 +26,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+
+import javax.swing.text.html.parser.Entity;
 
 @Mod(NetherSpace.MOD_ID)
 public class NetherSpace {
@@ -37,6 +46,10 @@ public class NetherSpace {
         ModVillagers.register(modEventBus);
 
         ModSounds.register(modEventBus);
+        ModEntities.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -64,7 +77,9 @@ public class NetherSpace {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
 
+            MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);
         }
     }
 }

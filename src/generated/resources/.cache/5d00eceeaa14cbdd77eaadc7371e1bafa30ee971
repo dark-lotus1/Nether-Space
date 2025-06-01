@@ -1,6 +1,7 @@
-// 1.20.1	2025-05-28T15:12:53.82108	Block States: netherspace
+// 1.20.1	2025-06-01T16:49:45.6608306	Block States: netherspace
 fafeb284afeaf26a8b4207b58f3fe3af342cb836 assets/netherspace/blockstates/dragon_roar_block.json
 b2dd9413358490c30ba6e5b185fed197cbf04890 assets/netherspace/blockstates/end_stone_nether_ore.json
+5fbb581e9832dfa5981ca5158ffd544bde2e3c2d assets/netherspace/blockstates/gem_polishing_station_block.json
 004da0addb604889ccc1ace5dfe53165000fd512 assets/netherspace/blockstates/nether_block.json
 86ed8811d96a33bb84877277598147fd725657a6 assets/netherspace/blockstates/nether_button.json
 00344c90858298ca9dbc5942afe667ed3846c794 assets/netherspace/blockstates/nether_door.json
@@ -49,6 +50,7 @@ c5c7f5b439b5cb84ea3b44c98030bb29613078e4 assets/netherspace/models/block/nether_
 9eb2f093620734fb0d1246a991cdd8e98348c132 assets/netherspace/models/block/raw_nether_block.json
 a032efac1012102b7aa3acda8786937499c05695 assets/netherspace/models/item/dragon_roar_block.json
 6eb0fd5517a5d3fe6f41980111ab668f75a890e8 assets/netherspace/models/item/end_stone_nether_ore.json
+af9f02babce3452c3ddb94d073a19d18b30c2f09 assets/netherspace/models/item/gem_polishing_station_block.json
 f83a14a6337945e874d3016a2f471e82155b7a02 assets/netherspace/models/item/nether_block.json
 dcacbad978d2ab5dcab8cae95184cff5ec8fe9c5 assets/netherspace/models/item/nether_nether_ore.json
 091cb44068c83ffa79026c64a69f332681968990 assets/netherspace/models/item/raw_nether_block.json
