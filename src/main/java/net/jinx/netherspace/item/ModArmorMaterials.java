@@ -11,8 +11,10 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial {
     NETHER("nether", 999999999, new int[]{999999999, 999999999, 999999999, 999999999}, 999999999,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 999999999f, 999999999f, () -> Ingredient.of(ModItems.NETHER_INGOT.get())),
-    HORI("hori", 999999999, new int[]{999999999, 999999999, 999999999, 999999999}, 999999999,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 999999999f, 999999999f, () -> Ingredient.of(ModItems.HORI_INGOT.get())),
+    HORI("hori", 999, new int[]{9999, 9999, 9999, 9999}, 9999,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 9999f, 9999f, () -> Ingredient.of(ModItems.HORI_INGOT.get())),
+    SKULY("skuly", 999, new int[]{9999, 9999, 9999, 9999}, 9999,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 9999f, 9999f, () -> Ingredient.of(ModItems.SKULY_INGOT.get())),
     JAKE("jake", 999, new int[]{999, 999, 999, 999}, 999,
     SoundEvents.ARMOR_EQUIP_NETHERITE, 999f, 999f, () -> Ingredient.of(ModItems.JAKE.get()));
 

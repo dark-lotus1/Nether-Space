@@ -31,6 +31,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.JAKE_LEGGINGS.get(),
                         ModItems.JAKE_BOOTS.get(),
 
+                        ModItems.SKULY_MASK.get(),
                         ModItems.HORI_BOOTS.get()
                         );
 

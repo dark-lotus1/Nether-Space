@@ -1,6 +1,7 @@
 {
   "item.netherspace.nether_ingot": "Nether Ingot",
   "item.netherspace.lumix_ingot": "Lumix Ingot",
+  "item.netherspace.skuly_ingot": "Skuly Ingot",
   "item.netherspace.hori_ingot": "Hori Ingot",
   "item.netherspace.raw_nether": "Raw Nether",
 
@@ -37,6 +38,7 @@
   "item.netherspace.jake_leggings": "Jake Leggings",
   "item.netherspace.jake_boots": "Jake Boots",
 
+  "item.netherspace.skuly_mask": "Skuly's Mask",
   "item.netherspace.hori_boots": "Hori's Boots",
 
   "block.netherspace.nether_block": "Block of Nether",

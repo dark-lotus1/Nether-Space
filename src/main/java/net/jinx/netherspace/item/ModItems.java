@@ -21,6 +21,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LUMIX_INGOT = ITEMS.register("lumix_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SKULY_INGOT = ITEMS.register("skuly_ingot",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HORI_INGOT = ITEMS.register("hori_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_NETHER = ITEMS.register("raw_nether",
@@ -79,6 +81,8 @@ public class ModItems {
     public static final RegistryObject<Item> JAKE_BOOTS = ITEMS.register("jake_boots",
             () -> new ModArmorItem(ModArmorMaterials.JAKE, ArmorItem.Type.BOOTS, new  Item.Properties()));
 
+    public static final RegistryObject<Item> SKULY_MASK = ITEMS.register("skuly_mask",
+            () -> new ArmorItem(ModArmorMaterials.SKULY, ArmorItem.Type.HELMET, new  Item.Properties()));
     public static final RegistryObject<Item> HORI_BOOTS = ITEMS.register("hori_boots",
             () -> new ArmorItem(ModArmorMaterials.HORI, ArmorItem.Type.BOOTS, new  Item.Properties()));
 

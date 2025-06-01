@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-01T04:50:03.8343031	Item Models: netherspace
+// 1.20.1	2025-06-01T05:30:59.3826619	Item Models: netherspace
 ff440191d8f4225da3b85729f8979cf122721794 assets/netherspace/models/item/americas_fries.json
 f9ac6f79f4b32e217e45484289e4c0a02b0c61ab assets/netherspace/models/item/bar_brawl_music_disc.json
 4857f75d3b57de3e79be2d0aac6d8663b7bbc52a assets/netherspace/models/item/hori_boots.json
@@ -127,3 +127,15 @@ eedf08750cf49d45d84cc79af8708ea6cd3e9cf5 assets/netherspace/models/item/nether_t
 bf9b5b52849e4beb34f6f32b751e1c7c0ce7a769 assets/netherspace/models/item/raw_nether.json
 e7147b0ec8d2af981bae83935d472337632872bf assets/netherspace/models/item/skittle.json
 1c8c60621d48cf108497516687cd8d69a917e3fe assets/netherspace/models/item/skullox_mace.json
+35d1efc7308053648dd82f7a7194edf274e76b63 assets/netherspace/models/item/skuly_ingot.json
+26be0b320f95d59f26b8a9a78a0d86d00e7b23c7 assets/netherspace/models/item/skuly_mask.json
+bfd0357046c0e3e00b852e6c1250917d21f90068 assets/netherspace/models/item/skuly_mask_amethyst_trim.json
+98569e981113410a3cea67cf11a5687c48f6f2d4 assets/netherspace/models/item/skuly_mask_copper_trim.json
+e14ccf558d8b7fbd09d7db4b74c4f79a67611fe9 assets/netherspace/models/item/skuly_mask_diamond_trim.json
+0b3db1d741301823450bc11b27be5e894ff993a3 assets/netherspace/models/item/skuly_mask_emerald_trim.json
+dd5e09a97e73294fc1d6b8cdab0d481b101b1f7a assets/netherspace/models/item/skuly_mask_gold_trim.json
+c7612ef33636e7a0f3db6a09d73888a47256f93b assets/netherspace/models/item/skuly_mask_iron_trim.json
+dd2823241b035f15f0e7a1b1b11ef80f36dbee94 assets/netherspace/models/item/skuly_mask_lapis_trim.json
+2f281d023c87406421d6c56414862dd6cd297db8 assets/netherspace/models/item/skuly_mask_netherite_trim.json
+392e92253a6ec7e2fa7d9614231ab60e8053c4ea assets/netherspace/models/item/skuly_mask_quartz_trim.json
+e49bbbe1d5dac4bf4592986ad444869ceff9f30d assets/netherspace/models/item/skuly_mask_redstone_trim.json
