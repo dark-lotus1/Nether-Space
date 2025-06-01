@@ -2,8 +2,10 @@ package net.jinx.netherspace.item.custom;
 
 import com.google.common.collect.ImmutableMap;
 import net.jinx.netherspace.item.ModArmorMaterials;
+import net.minecraft.client.renderer.EffectInstance;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
@@ -19,11 +21,14 @@ public class ModArmorItem extends ArmorItem {
                     .put(ModArmorMaterials.NETHER, new MobEffectInstance(MobEffects.REGENERATION, 1, 999999999,
                             false, false, true))
                     .put(ModArmorMaterials.JAKE, new MobEffectInstance(MobEffects.ABSORPTION, 1, 5,
-                            false, false, true)).build();
+                            false, false, true))
+                    .build();
 
     public ModArmorItem(ArmorMaterial pMaterial, Type pType, Properties pProperties) {
         super(pMaterial, pType, pProperties);
     }
+
+
 
     @Override
     public void onArmorTick(ItemStack stack, Level world, Player player) {

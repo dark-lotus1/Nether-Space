@@ -59,6 +59,8 @@
 
   "entity.minecraft.villager.netherspace.dragonmancer": "Dragonmancer Jake",
 
+  "sounds.netherspace.metal_detector_found_ore": "Metal Detector Jingle",
+
 
   "creativetab.nether_space.tab": "Nether Space"
 }

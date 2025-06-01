@@ -404,9 +404,9 @@
     },
     "done": true
   },
-  "minecraft:end/dragon_egg": {
+  "minecraft:adventure/trade": {
     "criteria": {
-      "dragon_egg": "2025-05-31 22:37:12 -0700"
+      "traded": "2025-05-31 22:33:30 -0700"
     },
     "done": true
   },
@@ -416,9 +416,9 @@
     },
     "done": true
   },
-  "minecraft:adventure/trade": {
+  "minecraft:end/dragon_egg": {
     "criteria": {
-      "traded": "2025-05-31 22:33:30 -0700"
+      "dragon_egg": "2025-05-31 22:37:12 -0700"
     },
     "done": true
   },

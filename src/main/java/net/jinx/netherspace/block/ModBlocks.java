@@ -3,6 +3,7 @@ package net.jinx.netherspace.block;
 import net.jinx.netherspace.NetherSpace;
 import net.jinx.netherspace.block.custom.DragonRoarBlock;
 import net.jinx.netherspace.item.ModItems;
+import net.jinx.netherspace.sound.ModSounds;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -34,7 +35,7 @@ public class ModBlocks {
                     .strength(10).requiresCorrectToolForDrops(), UniformInt.of(300,500)));
 
     public static final RegistryObject<Block> DRAGON_ROAR_BLOCK = registerBlock("dragon_roar_block",
-            () -> new DragonRoarBlock(BlockBehaviour.Properties.copy(Blocks.RAW_GOLD_BLOCK)));
+            () -> new DragonRoarBlock(BlockBehaviour.Properties.copy(Blocks.RAW_GOLD_BLOCK).sound(ModSounds.DRAGON_ROAR_BLOCK_SOUNDS)));
 
     public static final RegistryObject<Block> NETHER_STAIRS = registerBlock("nether_stairs",
             () -> new StairBlock(() -> ModBlocks.NETHER_BLOCK.get().defaultBlockState(),

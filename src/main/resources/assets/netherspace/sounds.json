@@ -1,0 +1,38 @@
+{
+  "metal_detector_found_ore": {
+    "subtitles": "sounds.nethersspace.metal_detector_found_ore",
+    "sounds": [
+      "netherspace:metal_detector_found_ore"
+    ]
+  },
+  "dragon_roar_block_break": {
+    "subtitle": "sounds.netherspace.dragon_roar_block_break",
+    "sounds": [
+      "netherspace:dragon_roar_block_break"
+    ]
+  },
+  "dragon_roar_block_step": {
+    "subtitle": "sounds.netherspace.dragon_roar_block_step",
+    "sounds": [
+      "netherspace:dragon_roar_block_step"
+    ]
+  },
+  "dragon_roar_block_place": {
+    "subtitle": "sounds.netherspace.dragon_roar_block_place",
+    "sounds": [
+      "netherspace:dragon_roar_block_place"
+    ]
+  },
+  "dragon_roar_block_hit": {
+    "subtitle": "sounds.netherspace.dragon_roar_block_hit",
+    "sounds": [
+      "netherspace:dragon_roar_block_hit"
+    ]
+  },
+  "dragon_roar_block_fall": {
+    "subtitle": "sounds.netherspace.dragon_roar_block_fall",
+    "sounds": [
+      "netherspace:dragon_roar_block_fall"
+    ]
+  }
+}
