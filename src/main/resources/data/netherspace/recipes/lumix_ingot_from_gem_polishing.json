@@ -1,0 +1,12 @@
+{
+  "type": "netherspace:gem_polishing",
+  "ingredients": [
+    {
+      "item": "netherspace:hori_ingot"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "netherspace:lumix_ingot"
+  }
+}

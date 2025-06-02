@@ -8,6 +8,7 @@ import net.jinx.netherspace.entity.client.RhinoRenderer;
 import net.jinx.netherspace.item.ModCreativeModeTabs;
 import net.jinx.netherspace.item.ModItems;
 import net.jinx.netherspace.loot.ModLootModifiers;
+import net.jinx.netherspace.recipe.ModRecipes;
 import net.jinx.netherspace.screen.GemPolishingStationScreen;
 import net.jinx.netherspace.screen.ModMenuTypes;
 import net.jinx.netherspace.sound.ModSounds;
@@ -50,6 +51,8 @@ public class NetherSpace {
 
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

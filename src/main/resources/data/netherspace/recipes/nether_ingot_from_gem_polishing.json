@@ -1,0 +1,12 @@
+{
+  "type": "netherspace:gem_polishing",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_block"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "netherspace:nether_ingot"
+  }
+}

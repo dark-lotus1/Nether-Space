@@ -1,0 +1,12 @@
+{
+  "type": "netherspace:gem_polishing",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "output": {
+    "count": 6,
+    "item": "minecraft:diamond"
+  }
+}
