@@ -6,6 +6,7 @@ import net.jinx.netherspace.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -35,14 +36,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(pWriter, NETHER_SMELTABLES, RecipeCategory.MISC, ModItems.NETHER_INGOT.get(), 1.0f, 600, "nether");
         oreBlasting(pWriter, NETHER_SMELTABLES, RecipeCategory.MISC, ModItems.NETHER_INGOT.get(), 1.0f, 300, "nether");
 
-        oreSmelting(pWriter, NETHER_BLOCK_SMELTABLES, RecipeCategory.MISC, ModItems.NETHER_INGOT.get(), 9.0f, 1200, "nether");
-        oreBlasting(pWriter, NETHER_BLOCK_SMELTABLES, RecipeCategory.MISC, ModItems.NETHER_INGOT.get(), 9.0f, 600, "nether");
+        oreSmelting(pWriter, NETHER_BLOCK_SMELTABLES, RecipeCategory.MISC, ModBlocks.NETHER_BLOCK.get(), 9.0f, 1200, "nether");
+        oreBlasting(pWriter, NETHER_BLOCK_SMELTABLES, RecipeCategory.MISC, ModBlocks.NETHER_BLOCK.get(), 9.0f, 600, "nether");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.NETHER_BLOCK.get())
                 .pattern("NNN")
                 .pattern("NNN")
                 .pattern("NNN")
                 .define('N', ModItems.NETHER_INGOT.get())
+                .unlockedBy(getHasName(ModItems.NETHER_INGOT.get()), has(ModItems.NETHER_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RAW_NETHER_BLOCK.get())
+                .pattern("RRR")
+                .pattern("RNR")
+                .pattern("RRR")
+                .define('R', ModItems.RAW_NETHER.get())
+                .define('N', Items.NETHERITE_INGOT)
                 .unlockedBy(getHasName(ModItems.NETHER_INGOT.get()), has(ModItems.NETHER_INGOT.get()))
                 .save(pWriter);
 

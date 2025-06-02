@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "R": {
+      "item": "netherspace:raw_nether"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RNR",
+    "RRR"
+  ],
+  "result": {
+    "item": "netherspace:raw_nether_block"
+  },
+  "show_notification": true
+}
