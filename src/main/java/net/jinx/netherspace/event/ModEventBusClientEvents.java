@@ -1,6 +1,8 @@
 package net.jinx.netherspace.event;
 
 import net.jinx.netherspace.NetherSpace;
+import net.jinx.netherspace.block.entity.ModBlockEntities;
+import net.jinx.netherspace.block.entity.renderer.GemPolishingBlockEntityRenderer;
 import net.jinx.netherspace.entity.client.ModModelLayers;
 import net.jinx.netherspace.entity.client.RhinoModel;
 import net.minecraftforge.api.distmarker.Dist;
@@ -15,4 +17,8 @@ public class ModEventBusClientEvents {
         event.registerLayerDefinition(ModModelLayers.RHINO_LAYER, RhinoModel::createBodyLayer);
     }
 
+    @SubscribeEvent
+    public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
+        event.registerBlockEntityRenderer(ModBlockEntities.GEM_POLISHING_BE.get(), GemPolishingBlockEntityRenderer::new);
+    }
 }

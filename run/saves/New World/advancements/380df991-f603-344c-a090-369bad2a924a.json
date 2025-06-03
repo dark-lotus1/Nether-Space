@@ -19,18 +19,6 @@
     },
     "done": true
   },
-  "netherspace:recipes/misc/nether_ingot_from_blasting_raw_nether_block": {
-    "criteria": {
-      "has_raw_nether_block": "2025-05-30 14:33:55 -0700"
-    },
-    "done": true
-  },
-  "netherspace:recipes/misc/nether_ingot_from_smelting_raw_nether_block": {
-    "criteria": {
-      "has_raw_nether_block": "2025-05-30 14:33:55 -0700"
-    },
-    "done": true
-  },
   "netherspace:recipes/misc/nether_ingot_from_blasting_nether_nether_ore": {
     "criteria": {
       "has_nether_nether_ore": "2025-05-30 14:33:57 -0700"
@@ -515,6 +503,12 @@
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
       "has_diamond": "2025-06-01 23:56:17 -0700"
+    },
+    "done": true
+  },
+  "netherspace:recipes/misc/raw_nether_block": {
+    "criteria": {
+      "has_nether_ingot": "2025-06-02 17:09:10 -0700"
     },
     "done": true
   },
