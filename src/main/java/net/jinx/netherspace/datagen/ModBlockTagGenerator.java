@@ -52,5 +52,14 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.WALLS)
                 .add(ModBlocks.NETHER_WALL.get());
 
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.NETHER_LOG.get())
+                .add(ModBlocks.NETHER_WOOD.get())
+                .add(ModBlocks.STRIPPED_NETHER_LOG.get())
+                .add(ModBlocks.STRIPPED_NETHER_WOOD.get());
+
+        this.tag(BlockTags.PLANKS)
+                .add(ModBlocks.NETHER_PLANKS.get());
+
     }
 }

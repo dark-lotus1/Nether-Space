@@ -44,8 +44,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.NETHER_FENCE_GATE.get());
         this.dropSelf(ModBlocks.NETHER_WALL.get());
 
-        this.dropSelf(ModBlocks.GEM_POLISHING_STATION.get());
-
         this.add(ModBlocks.NETHER_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.NETHER_SLAB.get()));
         this.add(ModBlocks.NETHER_DOOR.get(),
@@ -57,6 +55,17 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.SKITTLE_CROP.get(), createCropDrops(ModBlocks.SKITTLE_CROP.get(), ModItems.SKITTLE.get(),
                 ModItems.SKITTLE_SEEDS.get(), lootitemcondition$builder));
+
+        this.dropSelf(ModBlocks.GEM_POLISHING_STATION.get());
+
+        this.dropSelf(ModBlocks.NETHER_LOG.get());
+        this.dropSelf(ModBlocks.NETHER_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_NETHER_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_NETHER_WOOD.get());
+        this.dropSelf(ModBlocks.NETHER_PLANKS.get());
+
+        this.add(ModBlocks.NETHER_LEAVES.get(), block ->
+        createLeavesDrops(block, Block.byItem(ModItems.NETHER_INGOT.get()), 0.000001f));
 
     }
 

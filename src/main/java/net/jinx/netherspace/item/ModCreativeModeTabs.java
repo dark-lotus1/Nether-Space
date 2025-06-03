@@ -88,6 +88,14 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.GEM_POLISHING_STATION.get());
 
+                        output.accept(ModBlocks.NETHER_LOG.get());
+                        output.accept(ModBlocks.NETHER_WOOD.get());
+                        output.accept(ModBlocks.STRIPPED_NETHER_LOG.get());
+                        output.accept(ModBlocks.STRIPPED_NETHER_WOOD.get());
+
+                        output.accept(ModBlocks.NETHER_PLANKS.get());
+                        output.accept(ModBlocks.NETHER_LEAVES.get());
+
                     })
                     .build());
 

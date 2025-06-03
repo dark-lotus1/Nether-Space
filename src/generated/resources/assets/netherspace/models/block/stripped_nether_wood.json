@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "netherspace:block/stripped_nether_log",
+    "side": "netherspace:block/stripped_nether_log"
+  }
+}

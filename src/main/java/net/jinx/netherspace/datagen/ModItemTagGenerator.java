@@ -1,6 +1,7 @@
 package net.jinx.netherspace.datagen;
 
 import net.jinx.netherspace.NetherSpace;
+import net.jinx.netherspace.block.ModBlocks;
 import net.jinx.netherspace.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -33,7 +34,7 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
                         ModItems.SKULY_MASK.get(),
                         ModItems.HORI_BOOTS.get()
-                        );
+                );
 
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.BAR_BRAWL_MUSIC_DISC.get()
@@ -42,5 +43,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .add(ModItems.BAR_BRAWL_MUSIC_DISC.get()
                 );
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.NETHER_LOG.get().asItem())
+                .add(ModBlocks.NETHER_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_NETHER_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_NETHER_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.NETHER_PLANKS.get().asItem());
     }
 }

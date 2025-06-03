@@ -11,6 +11,7 @@ import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ConfiguredModel;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Function;
@@ -43,11 +44,41 @@ public class ModBlockStateProvider extends BlockStateProvider {
         doorBlockWithRenderType(((DoorBlock) ModBlocks.NETHER_DOOR.get()), modLoc("block/nether_door_bottom"), modLoc("block/nether_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.NETHER_TRAPDOOR.get()), modLoc("block/nether_trapdoor"), true, "cutout");
 
+        makeSkittleCrop((CropBlock) ModBlocks.SKITTLE_CROP.get(), "skittle_stage", "skittle_stage");
+
         simpleBlockWithItem(ModBlocks.GEM_POLISHING_STATION.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/gem_polishing_station")));
 
-        makeSkittleCrop((CropBlock) ModBlocks.SKITTLE_CROP.get(), "skittle_stage", "skittle_stage");
+        logBlock(((RotatedPillarBlock) ModBlocks.NETHER_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.NETHER_WOOD.get()), blockTexture(ModBlocks.NETHER_LOG.get()),
+                blockTexture(ModBlocks.NETHER_LOG.get()));
+
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_NETHER_LOG.get()), blockTexture(ModBlocks.STRIPPED_NETHER_LOG.get()),
+                new ResourceLocation(NetherSpace.MOD_ID, "block/stripped_nether_log_top"));
+        axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_NETHER_WOOD.get()), blockTexture(ModBlocks.STRIPPED_NETHER_LOG.get()),
+                blockTexture(ModBlocks.STRIPPED_NETHER_LOG.get()));
+
+        blockItem(ModBlocks.NETHER_LOG);
+        blockItem(ModBlocks.NETHER_WOOD);
+        blockItem(ModBlocks.STRIPPED_NETHER_LOG);
+        blockItem(ModBlocks.STRIPPED_NETHER_WOOD);
+
+        blockWithItem(ModBlocks.NETHER_PLANKS);
+
+        leavesBlock(ModBlocks.NETHER_LEAVES);
     }
+
+    private void leavesBlock(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockWithItem(blockRegistryObject.get(),
+                models().singleTexture(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), new ResourceLocation("minecraft:block/leaves"),
+                        "all", blockTexture(blockRegistryObject.get())).renderType("cutout"));
+    }
+
+    private void blockItem (RegistryObject<Block> blockRegistryObject) {
+        simpleBlockItem(blockRegistryObject.get(), new ModelFile.UncheckedModelFile(NetherSpace.MOD_ID +
+                ":block/" + ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath()));
+        }
+
 
     public void makeSkittleCrop(CropBlock block, String modelName, String textureName) {
         Function<BlockState, ConfiguredModel[]> function = state -> skittleStates(state, block, modelName, textureName);

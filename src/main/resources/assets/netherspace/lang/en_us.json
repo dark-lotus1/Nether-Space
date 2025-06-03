@@ -66,9 +66,14 @@
 
 
 
-
-
   "block.netherspace.gem_polishing_station": "Gem Polishing Station",
+
+  "block.netherspace.nether_log": "Nether Log",
+  "block.netherspace.nether_wood": "Nether Wood",
+  "block.netherspace.stripped_nether_log": "Stripped Nether Log",
+  "block.netherspace.stripped_nether_wood": "Stripped Nether Wood",
+  "block.netherspace.nether_planks": "Nether Planks",
+  "block.netherspace.nether_leaves": "Nether Leaves",
 
   "tooltip.netherspace.metal_detector.tooltip": "Finds valuables under the interacted block!",
   "tooltip.netherspace.dragon_roar_block.tooltip": "A reminder of Her Majesty, The Tyrant Dragon Queen",
