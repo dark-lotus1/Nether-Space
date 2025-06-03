@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-01T16:49:45.6608306	Block States: netherspace
+// 1.20.1	2025-06-02T21:45:48.8986947	Block States: netherspace
 fafeb284afeaf26a8b4207b58f3fe3af342cb836 assets/netherspace/blockstates/dragon_roar_block.json
 b2dd9413358490c30ba6e5b185fed197cbf04890 assets/netherspace/blockstates/end_stone_nether_ore.json
 5fbb581e9832dfa5981ca5158ffd544bde2e3c2d assets/netherspace/blockstates/gem_polishing_station_block.json
@@ -14,6 +14,7 @@ e5f405c5a3e7819d75adc13c6a5705c1a471d07a assets/netherspace/blockstates/nether_s
 37da62411a276eaef7e76bd7875a37a03b83a130 assets/netherspace/blockstates/nether_trapdoor.json
 90b8cf96f567c7880353991654454a45fe7d3623 assets/netherspace/blockstates/nether_wall.json
 d6ee18c20747cb506b61327f410bd314bdf35eea assets/netherspace/blockstates/raw_nether_block.json
+b74486a4c5fb1768d75e331703095b6cf7882672 assets/netherspace/blockstates/skittle_crop.json
 33827912890e4fc52d7ba0d59600626cf6b6fc99 assets/netherspace/models/block/dragon_roar_block.json
 9409fb92b9e8a37a493b7300dcac34be57aea33b assets/netherspace/models/block/end_stone_nether_ore.json
 c4f59bfd88c416194ed466b6d67b34abb150ccc7 assets/netherspace/models/block/nether_block.json
@@ -48,6 +49,12 @@ e7f1fa3431f8b2e63356dcf29203753302e2b81a assets/netherspace/models/block/nether_
 447eefba3d7bda134f457e641de0d0fe4fca5f78 assets/netherspace/models/block/nether_wall_side.json
 c5c7f5b439b5cb84ea3b44c98030bb29613078e4 assets/netherspace/models/block/nether_wall_side_tall.json
 9eb2f093620734fb0d1246a991cdd8e98348c132 assets/netherspace/models/block/raw_nether_block.json
+a8300ff36c3c47d6372171966d4c9bf2c553c885 assets/netherspace/models/block/skittle_stage0.json
+04b3962814e8e77d522d0fa3f8096d97d74ba4ed assets/netherspace/models/block/skittle_stage1.json
+7f0dcade0ba7365cf915707925260c889f245243 assets/netherspace/models/block/skittle_stage2.json
+6590b5647864620349d989ea7ef73428f4fa5b56 assets/netherspace/models/block/skittle_stage3.json
+631fb1fd7c7d306b70091bd1886697f610166caf assets/netherspace/models/block/skittle_stage4.json
+656905ae978b458d7112f266778b1d17e2dbb3f9 assets/netherspace/models/block/skittle_stage5.json
 a032efac1012102b7aa3acda8786937499c05695 assets/netherspace/models/item/dragon_roar_block.json
 6eb0fd5517a5d3fe6f41980111ab668f75a890e8 assets/netherspace/models/item/end_stone_nether_ore.json
 af9f02babce3452c3ddb94d073a19d18b30c2f09 assets/netherspace/models/item/gem_polishing_station_block.json

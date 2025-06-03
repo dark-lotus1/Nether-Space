@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "netherspace:skittle"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "netherspace:skittle_seeds"
+  }
+}

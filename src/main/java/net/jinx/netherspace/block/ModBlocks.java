@@ -3,6 +3,7 @@ package net.jinx.netherspace.block;
 import net.jinx.netherspace.NetherSpace;
 import net.jinx.netherspace.block.custom.DragonRoarBlock;
 import net.jinx.netherspace.block.custom.GemPolishingStationBlock;
+import net.jinx.netherspace.block.custom.SkittleCropBlock;
 import net.jinx.netherspace.item.ModItems;
 import net.jinx.netherspace.sound.ModSounds;
 import net.minecraft.sounds.SoundEvents;
@@ -63,6 +64,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> NETHER_TRAPDOOR = registerBlock("nether_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK).sound(SoundType.AMETHYST).noOcclusion(), BlockSetType.CHERRY));
 
+
+    public static final RegistryObject<Block> SKITTLE_CROP = BLOCKS.register("skittle_crop",
+            () -> new SkittleCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
 

@@ -54,6 +54,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.AMERICAS_FRIES);
         simpleItem(ModItems.SKITTLE);
+        simpleItem(ModItems.SKITTLE_SEEDS);
         simpleItem(ModItems.MTG_SWAMP);
 
         simpleItem(ModItems.BAR_BRAWL_MUSIC_DISC);

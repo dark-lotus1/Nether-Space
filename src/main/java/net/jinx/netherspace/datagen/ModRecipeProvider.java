@@ -61,6 +61,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.NETHER_BLOCK.get()), has(ModBlocks.NETHER_BLOCK.get()))
                 .save(pWriter);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SKITTLE_SEEDS.get(), 3)
+                .requires(ModItems.SKITTLE.get())
+                .unlockedBy(getHasName(ModItems.SKITTLE.get()), has(ModItems.SKITTLE.get()))
+                .save(pWriter);
+
 
     }
 

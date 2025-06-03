@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-01T16:49:45.6628313	Loot Tables
+// 1.20.1	2025-06-02T21:45:48.9012061	Loot Tables
 9e4dfb137906b98d30acdf04b5c0ac6d23cf659b data/netherspace/loot_tables/blocks/dragon_roar_block.json
 9325cb1366e4d2d90b1c7c9aa157313fb2aa586b data/netherspace/loot_tables/blocks/end_stone_nether_ore.json
 b4e940a2ef63306ff67589dc8c2a091b64c743fa data/netherspace/loot_tables/blocks/gem_polishing_station_block.json
@@ -14,3 +14,4 @@ f4e0f9a2402f8ca4818e09dd4d033fd2accefae7 data/netherspace/loot_tables/blocks/net
 22122d2776c8bac70811eb08d296ea29d68a7655 data/netherspace/loot_tables/blocks/nether_trapdoor.json
 8d2890bb6cdb990fbbae003bfcfaa9628d04c166 data/netherspace/loot_tables/blocks/nether_wall.json
 c3532fec5d6874e40a457fc8c5ad9197183a9159 data/netherspace/loot_tables/blocks/raw_nether_block.json
+a9bd26c0ab5b8ae41e4caf1a305bc6304a45a909 data/netherspace/loot_tables/blocks/skittle_crop.json

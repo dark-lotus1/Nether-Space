@@ -62,6 +62,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SKULY_MASK.get());
                         output.accept(ModItems.HORI_BOOTS.get());
 
+                        output.accept(ModItems.SKITTLE_SEEDS.get());
+
                         output.accept(ModItems.RHINO_SPAWN_EGG.get());
 
                         output.accept(ModBlocks.NETHER_BLOCK.get());

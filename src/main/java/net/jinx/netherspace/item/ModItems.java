@@ -1,6 +1,7 @@
 package net.jinx.netherspace.item;
 
 import net.jinx.netherspace.NetherSpace;
+import net.jinx.netherspace.block.ModBlocks;
 import net.jinx.netherspace.entity.ModEntities;
 import net.jinx.netherspace.item.custom.FuelItem;
 import net.jinx.netherspace.item.custom.MetalDetectorItem;
@@ -61,7 +62,7 @@ public class ModItems {
     public static final RegistryObject<Item> LUMIX_GREAT_SWORD = ITEMS.register("lumix_great_sword",
             () -> new SwordItem(ModToolTiers.NETHER, 9999999, 0.1f, new  Item.Properties()));
     public static final RegistryObject<Item> SKULLOX_MACE = ITEMS.register("skullox_mace",
-            () -> new SwordItem(ModToolTiers.NETHER, 99999, 0.3f, new  Item.Properties()));
+            () -> new SwordItem(ModToolTiers.NETHER, 16, 0.3f, new  Item.Properties()));
     public static final RegistryObject<Item> JORDAN_KATANA = ITEMS.register("jordan_katana",
             () -> new SwordItem(ModToolTiers.NETHER, 99999, 0.5f, new  Item.Properties()));
 
@@ -87,6 +88,9 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.SKULY, ArmorItem.Type.HELMET, new  Item.Properties()));
     public static final RegistryObject<Item> HORI_BOOTS = ITEMS.register("hori_boots",
             () -> new ArmorItem(ModArmorMaterials.HORI, ArmorItem.Type.BOOTS, new  Item.Properties()));
+
+    public static final RegistryObject<Item> SKITTLE_SEEDS = ITEMS.register("skittle_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.SKITTLE_CROP.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
             () -> new RecordItem(6, ModSounds.BAR_BRAWL, new Item.Properties().stacksTo(1), 2440));

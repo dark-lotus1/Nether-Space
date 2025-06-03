@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-01T07:44:03.9702342	Item Models: netherspace
+// 1.20.1	2025-06-02T21:45:48.9022064	Item Models: netherspace
 ff440191d8f4225da3b85729f8979cf122721794 assets/netherspace/models/item/americas_fries.json
 f9ac6f79f4b32e217e45484289e4c0a02b0c61ab assets/netherspace/models/item/bar_brawl_music_disc.json
 4857f75d3b57de3e79be2d0aac6d8663b7bbc52a assets/netherspace/models/item/hori_boots.json
@@ -127,6 +127,7 @@ eedf08750cf49d45d84cc79af8708ea6cd3e9cf5 assets/netherspace/models/item/nether_t
 bf9b5b52849e4beb34f6f32b751e1c7c0ce7a769 assets/netherspace/models/item/raw_nether.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/netherspace/models/item/rhino_spawn_egg.json
 e7147b0ec8d2af981bae83935d472337632872bf assets/netherspace/models/item/skittle.json
+95f8dcc35737e6c7bcdda918ccbc8924cbaa278b assets/netherspace/models/item/skittle_seeds.json
 1c8c60621d48cf108497516687cd8d69a917e3fe assets/netherspace/models/item/skullox_mace.json
 35d1efc7308053648dd82f7a7194edf274e76b63 assets/netherspace/models/item/skuly_ingot.json
 26be0b320f95d59f26b8a9a78a0d86d00e7b23c7 assets/netherspace/models/item/skuly_mask.json
