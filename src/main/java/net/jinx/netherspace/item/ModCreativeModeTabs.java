@@ -66,6 +66,9 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.RHINO_SPAWN_EGG.get());
 
+                        output.accept(ModItems.NETHER_SIGN.get());
+                        output.accept(ModItems.NETHER_HANGING_SIGN.get());
+
                         output.accept(ModBlocks.NETHER_BLOCK.get());
                         output.accept(ModBlocks.RAW_NETHER_BLOCK.get());
 

@@ -12,8 +12,10 @@ import net.jinx.netherspace.recipe.ModRecipes;
 import net.jinx.netherspace.screen.GemPolishingStationScreen;
 import net.jinx.netherspace.screen.ModMenuTypes;
 import net.jinx.netherspace.sound.ModSounds;
+import net.jinx.netherspace.util.ModWoodTypes;
 import net.jinx.netherspace.villager.ModVillagers;
 import net.minecraft.client.gui.screens.MenuScreens;
+import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -80,6 +82,8 @@ public class NetherSpace {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            Sheets.addWoodType(ModWoodTypes.NETHERW);
+
             EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
 
             MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);

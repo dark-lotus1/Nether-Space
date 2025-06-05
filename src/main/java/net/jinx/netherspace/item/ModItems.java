@@ -99,6 +99,12 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c6,
                     new Item.Properties()));
 
+    public static final RegistryObject<Item> NETHER_SIGN = ITEMS.register("nether_sign",
+            () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.NETHER_SIGN.get(), ModBlocks.NETHER_WALL_SIGN.get()));
+    public static final RegistryObject<Item> NETHER_HANGING_SIGN = ITEMS.register("nether_hanging_sign",
+            () -> new HangingSignItem(ModBlocks.NETHER_HANGING_SIGN.get(), ModBlocks.NETHER_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

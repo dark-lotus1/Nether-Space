@@ -98,6 +98,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.HORI_BOOTS);
 
         withExistingParent(ModItems.RHINO_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+
+        simpleItem(ModItems.NETHER_SIGN);
+        simpleItem(ModItems.NETHER_HANGING_SIGN);
     }
 
     // Shoutout to El_Redstoniano for making this

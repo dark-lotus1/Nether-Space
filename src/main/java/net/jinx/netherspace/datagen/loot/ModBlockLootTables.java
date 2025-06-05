@@ -67,6 +67,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.NETHER_LEAVES.get(), block ->
         createLeavesDrops(block, Block.byItem(ModItems.NETHER_INGOT.get()), 0.000001f));
 
+        this.add(ModBlocks.NETHER_SIGN.get(), block ->
+                createSingleItemTable(ModItems.NETHER_SIGN.get()));
+        this.add(ModBlocks.NETHER_WALL_SIGN.get(), block ->
+                createSingleItemTable(ModItems.NETHER_SIGN.get()));
+        this.add(ModBlocks.NETHER_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.NETHER_HANGING_SIGN.get()));
+        this.add(ModBlocks.NETHER_WALL_HANGING_SIGN.get(), block ->
+                createSingleItemTable(ModItems.NETHER_HANGING_SIGN.get()));
+
     }
 
     protected LootTable.Builder createNetherOreDrops(Block pBlock, Item item) {

@@ -75,6 +75,9 @@
   "block.netherspace.nether_planks": "Nether Planks",
   "block.netherspace.nether_leaves": "Nether Leaves",
 
+  "block.netherspace.nether_sign": "Nether Sign",
+  "block.netherspace.nether_hanging_sign": "Nether Sign",
+
   "tooltip.netherspace.metal_detector.tooltip": "Finds valuables under the interacted block!",
   "tooltip.netherspace.dragon_roar_block.tooltip": "A reminder of Her Majesty, The Tyrant Dragon Queen",
 

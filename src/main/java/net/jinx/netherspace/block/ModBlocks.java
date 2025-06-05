@@ -1,12 +1,10 @@
 package net.jinx.netherspace.block;
 
 import net.jinx.netherspace.NetherSpace;
-import net.jinx.netherspace.block.custom.DragonRoarBlock;
-import net.jinx.netherspace.block.custom.GemPolishingStationBlock;
-import net.jinx.netherspace.block.custom.ModFlammableRotatedPillarBlock;
-import net.jinx.netherspace.block.custom.SkittleCropBlock;
+import net.jinx.netherspace.block.custom.*;
 import net.jinx.netherspace.item.ModItems;
 import net.jinx.netherspace.sound.ModSounds;
+import net.jinx.netherspace.util.ModWoodTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
@@ -23,7 +21,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import java.util.function.Supplier;
-import java.util.stream.Stream;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -123,6 +120,16 @@ public class ModBlocks {
                     return 30;
                 }
             });
+
+    public static final RegistryObject<Block> NETHER_SIGN = BLOCKS.register("nether_sign",
+            () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.NETHERW));
+    public static final RegistryObject<Block> NETHER_WALL_SIGN = BLOCKS.register("nether_wall_sign",
+            () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.NETHERW));
+
+    public static final RegistryObject<Block> NETHER_HANGING_SIGN = BLOCKS.register("nether_hanging_sign",
+            () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.NETHERW));
+    public static final RegistryObject<Block> NETHER_WALL_HANGING_SIGN = BLOCKS.register("nether_wall_hanging_sign",
+            () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.NETHERW));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

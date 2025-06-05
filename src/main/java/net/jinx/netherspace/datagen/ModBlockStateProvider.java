@@ -66,6 +66,32 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.NETHER_PLANKS);
 
         leavesBlock(ModBlocks.NETHER_LEAVES);
+
+        signBlock(((StandingSignBlock) ModBlocks.NETHER_SIGN.get()), ((WallSignBlock) ModBlocks.NETHER_WALL_SIGN.get()),
+                blockTexture(ModBlocks.NETHER_PLANKS.get()));
+
+        hangingSignBlock(ModBlocks.NETHER_HANGING_SIGN.get(),  ModBlocks.NETHER_WALL_HANGING_SIGN.get(),
+                blockTexture(ModBlocks.NETHER_PLANKS.get()));
+
+
+    }
+
+    public void hangingSignBlock(Block signBlock, Block wallSignBlock, ResourceLocation texture) {
+        ModelFile sign = models().sign(name(signBlock), texture);
+        hangingSignBlock(signBlock, wallSignBlock, sign);
+    }
+
+    public void hangingSignBlock(Block signBlock, Block wallSignBlock, ModelFile sign) {
+        simpleBlock(signBlock, sign);
+        simpleBlock(wallSignBlock, sign);
+    }
+
+    private String name(Block block) {
+        return key(block).getPath();
+    }
+
+    private ResourceLocation key(Block block) {
+        return ForgeRegistries.BLOCKS.getKey(block);
     }
 
     private void leavesBlock(RegistryObject<Block> blockRegistryObject) {

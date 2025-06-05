@@ -1,35 +1,609 @@
-[03Jun2025 01:08:28.929] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\anosv\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, netherspace, --all, --output, C:\Users\anosv\Desktop\Minecraft\Nether-Space-1.20.1\src\generated\resources, --existing, C:\Users\anosv\Desktop\Minecraft\Nether-Space-1.20.1\src\main\resources]
-[03Jun2025 01:08:28.933] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[03Jun2025 01:08:29.067] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[03Jun2025 01:08:29.128] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/anosv/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[03Jun2025 01:08:29.433] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anosv\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[03Jun2025 01:08:29.436] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anosv\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[03Jun2025 01:08:29.439] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anosv\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[03Jun2025 01:08:29.443] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anosv\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
-[03Jun2025 01:08:29.531] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[03Jun2025 01:08:31.019] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\anosv\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, netherspace, --all, --output, C:\Users\anosv\Desktop\Minecraft\Nether-Space-1.20.1\src\generated\resources, --existing, C:\Users\anosv\Desktop\Minecraft\Nether-Space-1.20.1\src\main\resources]
-[03Jun2025 01:08:31.378] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [netherspace]
-[03Jun2025 01:08:35.961] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
-[03Jun2025 01:08:35.962] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
-[03Jun2025 01:08:36.191] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[03Jun2025 01:08:36.195] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.819 ms
-[03Jun2025 01:08:36.509] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/anosv/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[03Jun2025 01:08:36.510] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/anosv/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[03Jun2025 01:08:36.675] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[03Jun2025 01:08:36.718] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 42 ms
-[03Jun2025 01:08:36.718] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[03Jun2025 01:08:36.785] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 67 ms
-[03Jun2025 01:08:36.786] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: netherspace
-[03Jun2025 01:08:36.957] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: netherspace finished after 169 ms
-[03Jun2025 01:08:36.957] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: netherspace
-[03Jun2025 01:08:37.000] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: netherspace finished after 42 ms
-[03Jun2025 01:08:37.000] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id netherspace
-[03Jun2025 01:08:37.014] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id netherspace finished after 13 ms
-[03Jun2025 01:08:37.014] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id netherspace
-[03Jun2025 01:08:37.015] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id netherspace finished after 1 ms
-[03Jun2025 01:08:37.015] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : netherspace
-[03Jun2025 01:08:37.022] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : netherspace finished after 7 ms
-[03Jun2025 01:08:37.023] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:point_of_interest_type mod id netherspace
-[03Jun2025 01:08:37.024] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:point_of_interest_type mod id netherspace finished after 1 ms
-[03Jun2025 01:08:37.024] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 349 ms
-[03Jun2025 01:08:37.047] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 292, old count: 292, new count: 293, removed stale: 0, written: 0
+[05Jun2025 00:39:26.498] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\anosv\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[05Jun2025 00:39:26.503] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[05Jun2025 00:39:26.638] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[05Jun2025 00:39:26.745] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[05Jun2025 00:39:26.939] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[05Jun2025 00:39:27.039] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/anosv/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[05Jun2025 00:39:27.097] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4060/PCIe/SSE2 GL version 4.6.0 NVIDIA 576.28, NVIDIA Corporation
+[05Jun2025 00:39:27.364] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anosv\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[05Jun2025 00:39:27.369] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anosv\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[05Jun2025 00:39:27.373] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anosv\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[05Jun2025 00:39:27.376] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\anosv\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
+[05Jun2025 00:39:27.468] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[05Jun2025 00:39:29.026] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\anosv\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[05Jun2025 00:39:30.017] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[05Jun2025 00:39:32.425] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 127 milliseconds
+[05Jun2025 00:39:33.939] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/anosv/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[05Jun2025 00:39:33.939] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/anosv/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[05Jun2025 00:39:33.957] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05Jun2025 00:39:33.964] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[05Jun2025 00:39:34.086] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[05Jun2025 00:39:34.363] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
+[05Jun2025 00:39:34.364] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
+[05Jun2025 00:39:34.551] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[05Jun2025 00:39:34.555] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.786 ms
+[05Jun2025 00:39:35.415] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [netherspace]
+[05Jun2025 00:39:35.563] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[05Jun2025 00:39:35.712] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Jun2025 00:39:35.720] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[05Jun2025 00:39:36.174] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.1.3 Target: 47.4.0
+[05Jun2025 00:39:38.296] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[05Jun2025 00:39:38.297] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[05Jun2025 00:39:38.366] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Razer Kraken V3 X)
+[05Jun2025 00:39:38.367] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[05Jun2025 00:39:38.485] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[05Jun2025 00:39:38.494] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[05Jun2025 00:39:38.495] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[05Jun2025 00:39:38.496] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[05Jun2025 00:39:38.496] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[05Jun2025 00:39:38.501] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[05Jun2025 00:39:38.503] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[05Jun2025 00:39:38.503] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[05Jun2025 00:39:38.504] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[05Jun2025 00:39:38.633] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[05Jun2025 00:39:38.692] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[05Jun2025 00:39:38.694] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[05Jun2025 00:39:38.694] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[05Jun2025 00:39:38.696] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[05Jun2025 00:39:39.043] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[05Jun2025 00:40:01.652] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[05Jun2025 00:40:01.692] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherspace:nether_sign Expected: 1288 Got: 1309
+[05Jun2025 00:40:01.693] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: netherspace:nether_hanging_sign Expected: 1289 Got: 1310
+[05Jun2025 00:40:03.359] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[05Jun2025 00:40:03.460] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1283 advancements
+[05Jun2025 00:40:03.800] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[05Jun2025 00:40:03.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Jun2025 00:40:04.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Jun2025 00:40:06.597] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jun2025 00:40:06.652] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jun2025 00:40:06.652] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jun2025 00:40:06.652] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jun2025 00:40:06.850] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jun2025 00:40:07.312] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Jun2025 00:40:07.781] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[05Jun2025 00:40:07.783] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2976 ms
+[05Jun2025 00:40:07.929] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[05Jun2025 00:40:07.932] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[05Jun2025 00:40:08.041] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[05Jun2025 00:40:08.434] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[05Jun2025 00:40:08.504] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:c036fdc9] logged in with entity id 234 at (96.8153916211438, 65.25599884762404, 31.543530915474552)
+[05Jun2025 00:40:08.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[05Jun2025 00:40:08.680] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[05Jun2025 00:40:08.680] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[05Jun2025 00:40:08.691] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@570f96b7=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/netherspace:nether_ingot_from_gem_polishing
+[05Jun2025 00:40:08.692] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4b50ebea=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/netherspace:hori_ingot_from_gem_polishing
+[05Jun2025 00:40:08.694] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1263d20d=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/netherspace:diamond_from_gem_polishing
+[05Jun2025 00:40:08.697] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4e387da1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/netherspace:skuly_ingot_from_gem_polishing
+[05Jun2025 00:40:08.698] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6a4ec62d=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/netherspace:lumix_ingot_from_gem_polishing
+[05Jun2025 00:40:08.808] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[05Jun2025 00:40:08.823] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[05Jun2025 00:40:08.823] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[05Jun2025 00:40:08.824] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[05Jun2025 00:40:08.833] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[05Jun2025 00:40:08.837] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 3.991 ms
+[05Jun2025 00:40:08.838] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[05Jun2025 00:40:08.839] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 1.338 ms
+[05Jun2025 00:40:08.840] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[05Jun2025 00:40:08.882] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[05Jun2025 00:40:08.898] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 56.53 milliseconds
+[05Jun2025 00:40:08.898] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 57.33 ms
+[05Jun2025 00:40:08.909] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[05Jun2025 00:40:08.923] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 12.81 milliseconds
+[05Jun2025 00:40:08.925] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 15.73 ms
+[05Jun2025 00:40:08.926] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[05Jun2025 00:40:08.927] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 1.716 ms
+[05Jun2025 00:40:08.929] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[05Jun2025 00:40:08.930] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 636.5 μs
+[05Jun2025 00:40:08.931] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[05Jun2025 00:40:08.932] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 621.5 μs
+[05Jun2025 00:40:08.932] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[05Jun2025 00:40:08.950] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 17.66 ms
+[05Jun2025 00:40:08.952] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[05Jun2025 00:40:09.104] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 151.2 milliseconds
+[05Jun2025 00:40:09.104] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 152.1 ms
+[05Jun2025 00:40:09.108] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[05Jun2025 00:40:09.111] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 2.923 ms
+[05Jun2025 00:40:09.116] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[05Jun2025 00:40:09.120] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[05Jun2025 00:40:09.129] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 7.472 ms
+[05Jun2025 00:40:09.131] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[05Jun2025 00:40:09.133] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[05Jun2025 00:40:09.134] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[05Jun2025 00:40:09.136] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 2.861 ms
+[05Jun2025 00:40:09.137] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[05Jun2025 00:40:09.162] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 1614 ingredients
+[05Jun2025 00:40:09.349] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 1614/1614 ingredients
+[05Jun2025 00:40:09.351] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 213.8 ms
+[05Jun2025 00:40:09.488] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 355.3 milliseconds
+[05Jun2025 00:40:09.488] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 356.3 ms
+[05Jun2025 00:40:09.490] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 372.2 ms
+[05Jun2025 00:40:09.490] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[05Jun2025 00:40:09.491] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 651.8 μs
+[05Jun2025 00:40:09.491] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 665.9 ms
+[05Jun2025 00:40:09.858] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 177 advancements
+[05Jun2025 00:40:55.842] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 179 advancements
+[05Jun2025 00:41:19.021] [Render thread/ERROR] [net.minecraft.util.thread.BlockableEventLoop/FATAL]: Error executing task on Client
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.setData(AbstractContainerMenu.java:622) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.multiplayer.ClientPacketListener.handleContainerSetData(ClientPacketListener.java:1293) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:36) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:6) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:40) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:104) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1132) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:723) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05Jun2025 00:41:26.566] [Render thread/ERROR] [net.minecraft.util.thread.BlockableEventLoop/FATAL]: Error executing task on Client
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.setData(AbstractContainerMenu.java:622) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.multiplayer.ClientPacketListener.handleContainerSetData(ClientPacketListener.java:1293) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:36) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:6) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:40) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:104) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1132) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:723) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05Jun2025 00:41:31.518] [Render thread/ERROR] [net.minecraft.util.thread.BlockableEventLoop/FATAL]: Error executing task on Client
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.setData(AbstractContainerMenu.java:622) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.multiplayer.ClientPacketListener.handleContainerSetData(ClientPacketListener.java:1293) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:36) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:6) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:40) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:104) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1132) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:723) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05Jun2025 00:41:31.520] [Render thread/ERROR] [net.minecraft.util.thread.BlockableEventLoop/FATAL]: Error executing task on Client
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.setData(AbstractContainerMenu.java:622) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.multiplayer.ClientPacketListener.handleContainerSetData(ClientPacketListener.java:1293) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:36) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:6) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:40) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:104) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1132) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:723) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05Jun2025 00:41:31.524] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (103, 59, 40)
+[05Jun2025 00:41:32.619] [Render thread/ERROR] [net.minecraft.util.thread.BlockableEventLoop/FATAL]: Error executing task on Client
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.setData(AbstractContainerMenu.java:622) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.multiplayer.ClientPacketListener.handleContainerSetData(ClientPacketListener.java:1293) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:36) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:6) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:40) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:104) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1132) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:723) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05Jun2025 00:41:32.620] [Render thread/ERROR] [net.minecraft.util.thread.BlockableEventLoop/FATAL]: Error executing task on Client
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:361) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at net.minecraft.world.inventory.AbstractContainerMenu.setData(AbstractContainerMenu.java:622) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.multiplayer.ClientPacketListener.handleContainerSetData(ClientPacketListener.java:1293) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:36) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.game.ClientboundContainerSetDataPacket.handle(ClientboundContainerSetDataPacket.java:6) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$0(PacketUtils.java:40) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:146) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:104) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1132) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:723) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.devService(ForgeClientUserdevLaunchHandler.java:19) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at net.minecraftforge.fml.loading.targets.CommonDevLaunchHandler.lambda$makeService$7(CommonDevLaunchHandler.java:135) ~[fmlloader-1.20.1-47.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05Jun2025 00:41:32.621] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (103, 59, 40)
+[05Jun2025 00:41:34.371] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:34.769] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:34.972] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:35.215] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:35.665] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:36.020] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:36.724] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:36.972] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:37.466] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (105, 16, 41)
+[05Jun2025 00:41:38.021] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:39.073] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:40.118] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:40.720] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:40.915] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:41.118] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:41.314] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:41.518] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:43.674] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:44.771] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:45.172] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:45.365] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:45.570] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:45.772] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:45.967] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:46.170] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:46.372] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:46.565] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:46.770] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:46.965] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:47.170] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:47.364] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:47.569] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:47.765] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:47.965] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:48.167] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:48.374] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Lapis Lazuli Ore at (107, 15, 39)
+[05Jun2025 00:41:50.020] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (106, 40, 40)
+[05Jun2025 00:41:52.820] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (105, 16, 40)
+[05Jun2025 00:41:53.320] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (105, 16, 40)
+[05Jun2025 00:41:53.516] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (105, 16, 40)
+[05Jun2025 00:41:53.719] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (105, 16, 40)
+[05Jun2025 00:41:53.922] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (105, 16, 40)
+[05Jun2025 00:41:54.119] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (105, 16, 40)
+[05Jun2025 00:41:54.318] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (105, 16, 40)
+[05Jun2025 00:41:54.522] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (105, 16, 40)
+[05Jun2025 00:41:54.716] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (105, 16, 40)
+[05Jun2025 00:41:56.466] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:56.971] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:57.369] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:41:57.573] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (103, 59, 40)
+[05Jun2025 00:41:57.715] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (103, 59, 40)
+[05Jun2025 00:41:58.072] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (103, 59, 40)
+[05Jun2025 00:41:58.267] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (103, 59, 40)
+[05Jun2025 00:41:58.469] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (103, 59, 40)
+[05Jun2025 00:41:59.368] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (102, 59, 40)
+[05Jun2025 00:41:59.571] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (102, 59, 40)
+[05Jun2025 00:41:59.767] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (102, 59, 40)
+[05Jun2025 00:41:59.971] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (102, 59, 40)
+[05Jun2025 00:42:00.165] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (102, 59, 40)
+[05Jun2025 00:42:00.716] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (101, 59, 40)
+[05Jun2025 00:42:00.921] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (101, 59, 40)
+[05Jun2025 00:42:01.119] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (101, 59, 40)
+[05Jun2025 00:42:01.322] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (101, 59, 40)
+[05Jun2025 00:42:01.519] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (101, 59, 40)
+[05Jun2025 00:42:01.969] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:02.165] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:02.366] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:02.570] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:03.273] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:03.468] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:03.673] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:03.866] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:04.670] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:04.873] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:05.068] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:05.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:06.967] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:07.170] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:07.364] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:07.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:08.465] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:08.669] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:08.872] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:10.515] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (98, 31, 42)
+[05Jun2025 00:42:10.718] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (98, 31, 42)
+[05Jun2025 00:42:10.922] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (98, 31, 42)
+[05Jun2025 00:42:11.118] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (98, 31, 42)
+[05Jun2025 00:42:11.321] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (98, 31, 42)
+[05Jun2025 00:42:11.518] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (98, 31, 42)
+[05Jun2025 00:42:12.172] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (97, 31, 42)
+[05Jun2025 00:42:12.367] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (97, 31, 42)
+[05Jun2025 00:42:12.570] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (97, 31, 42)
+[05Jun2025 00:42:12.773] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (97, 31, 42)
+[05Jun2025 00:42:12.969] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (97, 31, 42)
+[05Jun2025 00:42:13.466] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, -17, 41)
+[05Jun2025 00:42:13.671] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, -17, 41)
+[05Jun2025 00:42:13.867] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, -17, 41)
+[05Jun2025 00:42:14.071] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, -17, 41)
+[05Jun2025 00:42:14.264] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, -17, 41)
+[05Jun2025 00:42:14.617] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, -17, 41)
+[05Jun2025 00:42:14.823] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Redstone Ore at (97, 4, 40)
+[05Jun2025 00:42:15.018] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Redstone Ore at (97, 4, 40)
+[05Jun2025 00:42:15.222] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Redstone Ore at (97, 4, 40)
+[05Jun2025 00:42:15.415] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Redstone Ore at (97, 4, 40)
+[05Jun2025 00:42:15.621] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Redstone Ore at (97, 4, 40)
+[05Jun2025 00:42:15.817] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Redstone Ore at (97, 4, 40)
+[05Jun2025 00:42:16.020] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, 3, 39)
+[05Jun2025 00:42:16.218] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, 3, 39)
+[05Jun2025 00:42:16.420] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, 3, 39)
+[05Jun2025 00:42:16.622] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, 3, 39)
+[05Jun2025 00:42:16.816] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, 3, 39)
+[05Jun2025 00:42:17.022] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, 3, 39)
+[05Jun2025 00:42:17.622] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, 3, 39)
+[05Jun2025 00:42:17.817] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, 3, 39)
+[05Jun2025 00:42:18.020] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (97, 3, 39)
+[05Jun2025 00:42:18.223] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:19.223] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (97, 35, 37)
+[05Jun2025 00:42:19.419] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Copper Ore at (97, 35, 37)
+[05Jun2025 00:42:21.268] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:21.471] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:21.665] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:21.868] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:22.073] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (97, 51, 34)
+[05Jun2025 00:42:22.267] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:22.469] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:22.664] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:22.872] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:23.068] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:23.268] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:23.469] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (97, 51, 35)
+[05Jun2025 00:42:23.673] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (97, 51, 34)
+[05Jun2025 00:42:23.866] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (97, 51, 34)
+[05Jun2025 00:42:24.070] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (97, 51, 34)
+[05Jun2025 00:42:24.264] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (96, 51, 34)
+[05Jun2025 00:42:24.468] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (96, 51, 35)
+[05Jun2025 00:42:24.670] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (96, 51, 35)
+[05Jun2025 00:42:24.867] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (95, 51, 35)
+[05Jun2025 00:42:25.073] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (95, 51, 35)
+[05Jun2025 00:42:25.269] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (95, 51, 35)
+[05Jun2025 00:42:25.471] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Redstone Ore at (94, 11, 35)
+[05Jun2025 00:42:25.666] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:25.866] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:26.067] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:26.271] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:26.465] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:26.669] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:26.866] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (93, 37, 33)
+[05Jun2025 00:42:27.073] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (93, 37, 33)
+[05Jun2025 00:42:27.267] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (93, 37, 32)
+[05Jun2025 00:42:27.471] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (93, 37, 32)
+[05Jun2025 00:42:27.669] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (93, 48, 31)
+[05Jun2025 00:42:27.872] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (93, 48, 31)
+[05Jun2025 00:42:28.069] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (93, 48, 30)
+[05Jun2025 00:42:28.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (93, 48, 30)
+[05Jun2025 00:42:28.465] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (94, 48, 30)
+[05Jun2025 00:42:28.670] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (94, 48, 30)
+[05Jun2025 00:42:28.865] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:29.069] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:29.271] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Iron Ore at (96, 1, 30)
+[05Jun2025 00:42:29.467] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Iron Ore at (96, 1, 30)
+[05Jun2025 00:42:29.666] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:29.867] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:30.069] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:30.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:30.466] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:30.667] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Iron Ore at (98, -6, 30)
+[05Jun2025 00:42:30.872] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Iron Ore at (98, -6, 30)
+[05Jun2025 00:42:31.067] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Iron Ore at (98, -6, 30)
+[05Jun2025 00:42:31.270] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Lapis Lazuli Ore at (98, -52, 31)
+[05Jun2025 00:42:31.466] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Lapis Lazuli Ore at (98, -52, 31)
+[05Jun2025 00:42:31.672] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:31.868] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:32.070] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:32.265] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:32.468] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:32.672] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:32.865] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:33.067] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:33.270] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:33.472] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (97, 51, 34)
+[05Jun2025 00:42:33.666] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (97, 51, 34)
+[05Jun2025 00:42:33.871] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (96, 51, 34)
+[05Jun2025 00:42:34.066] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (96, 51, 34)
+[05Jun2025 00:42:34.268] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (95, -18, 34)
+[05Jun2025 00:42:34.464] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (95, -18, 34)
+[05Jun2025 00:42:34.669] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (94, -19, 34)
+[05Jun2025 00:42:34.872] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (94, -19, 34)
+[05Jun2025 00:42:35.066] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (94, -19, 34)
+[05Jun2025 00:42:35.270] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (94, -19, 34)
+[05Jun2025 00:42:35.466] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (94, -19, 34)
+[05Jun2025 00:42:35.667] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (94, -19, 34)
+[05Jun2025 00:42:35.869] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (94, -19, 34)
+[05Jun2025 00:42:36.069] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (94, -19, 34)
+[05Jun2025 00:42:36.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (94, -19, 34)
+[05Jun2025 00:42:36.468] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Gold Ore at (94, -19, 34)
+[05Jun2025 00:42:36.666] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:36.873] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:37.066] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (94, 37, 32)
+[05Jun2025 00:42:37.270] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Iron Ore at (94, 37, 32)
+[05Jun2025 00:42:37.469] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (94, 48, 31)
+[05Jun2025 00:42:37.669] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (94, 48, 31)
+[05Jun2025 00:42:37.870] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (94, 48, 31)
+[05Jun2025 00:42:38.072] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (94, 48, 31)
+[05Jun2025 00:42:38.270] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (95, 48, 31)
+[05Jun2025 00:42:38.473] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (95, 48, 31)
+[05Jun2025 00:42:38.670] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:38.872] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:39.065] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:39.266] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:39.469] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:39.671] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:39.867] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:40.071] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:40.265] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:40.468] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (97, 51, 34)
+[05Jun2025 00:42:40.668] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (97, 51, 34)
+[05Jun2025 00:42:40.870] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (96, 51, 34)
+[05Jun2025 00:42:41.072] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (96, 51, 34)
+[05Jun2025 00:42:41.266] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (96, 51, 34)
+[05Jun2025 00:42:41.468] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (96, 51, 34)
+[05Jun2025 00:42:41.668] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (96, 51, 34)
+[05Jun2025 00:42:41.871] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Coal Ore at (96, 51, 34)
+[05Jun2025 00:42:42.064] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (96, -50, 33)
+[05Jun2025 00:42:42.269] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (96, -50, 33)
+[05Jun2025 00:42:42.472] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (96, -50, 33)
+[05Jun2025 00:42:42.668] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (96, -50, 33)
+[05Jun2025 00:42:42.870] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (96, -50, 33)
+[05Jun2025 00:42:43.072] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (96, -50, 33)
+[05Jun2025 00:42:43.268] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (95, -51, 33)
+[05Jun2025 00:42:43.469] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (95, -51, 33)
+[05Jun2025 00:42:43.671] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (95, -51, 33)
+[05Jun2025 00:42:43.871] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (95, -51, 33)
+[05Jun2025 00:42:44.067] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (95, -51, 33)
+[05Jun2025 00:42:44.268] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Iron Ore at (95, -12, 32)
+[05Jun2025 00:42:44.468] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Iron Ore at (95, -12, 32)
+[05Jun2025 00:42:44.671] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Iron Ore at (95, -12, 32)
+[05Jun2025 00:42:44.872] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:45.065] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:45.265] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:45.469] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:45.670] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:46.068] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:46.269] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:46.464] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:46.669] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:46.871] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] No Valuables Found!
+[05Jun2025 00:42:47.072] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (96, -50, 33)
+[05Jun2025 00:42:47.269] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (96, -50, 33)
+[05Jun2025 00:42:47.466] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Found Deepslate Redstone Ore at (96, -50, 33)
+[05Jun2025 00:42:53.982] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[05Jun2025 00:42:53.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[05Jun2025 00:42:54.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[05Jun2025 00:42:54.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[05Jun2025 00:43:16.369] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[05Jun2025 00:43:16.369] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[05Jun2025 00:43:16.369] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[05Jun2025 00:43:16.369] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[05Jun2025 00:43:16.369] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[05Jun2025 00:43:16.373] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 2.963 ms
+[05Jun2025 00:43:16.393] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[05Jun2025 00:43:16.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[05Jun2025 00:43:16.406] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[05Jun2025 00:43:16.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[05Jun2025 00:43:16.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[05Jun2025 00:43:16.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[05Jun2025 00:43:16.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[05Jun2025 00:43:17.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[05Jun2025 00:43:17.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[05Jun2025 00:43:17.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[05Jun2025 00:43:17.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05Jun2025 00:43:17.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05Jun2025 00:43:17.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05Jun2025 00:43:20.321] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
