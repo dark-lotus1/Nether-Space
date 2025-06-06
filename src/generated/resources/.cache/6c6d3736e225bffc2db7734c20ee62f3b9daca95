@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-06T11:27:25.9411647	Item Models: netherspace
+// 1.20.1	2025-06-06T15:46:58.3309698	Item Models: netherspace
 ff440191d8f4225da3b85729f8979cf122721794 assets/netherspace/models/item/americas_fries.json
 f9ac6f79f4b32e217e45484289e4c0a02b0c61ab assets/netherspace/models/item/bar_brawl_music_disc.json
 4857f75d3b57de3e79be2d0aac6d8663b7bbc52a assets/netherspace/models/item/hori_boots.json
@@ -120,6 +120,7 @@ bc5b189ee6e1231076df6c1c1fc4755cce84be59 assets/netherspace/models/item/nether_l
 82b9b454832dc31ecde2e1c7bf412e930864b5e4 assets/netherspace/models/item/nether_leggings_redstone_trim.json
 111bb23e2f25f5a22c26ad91e4309dfdb8665f49 assets/netherspace/models/item/nether_pickaxe.json
 2441bedc7a42228f2db77ac1ce04d58e6043a6fc assets/netherspace/models/item/nether_pressure_plate.json
+9ce1f001c10a9d5c8a1ecb3ff9e5305f5558c582 assets/netherspace/models/item/nether_sapling.json
 ca6ca44e70e2f124ed0fffe0842575b80f6829e2 assets/netherspace/models/item/nether_shovel.json
 c6c28b4475374c49be13cf215d2a9e40c0b6014b assets/netherspace/models/item/nether_sign.json
 1e91041256f508ae4adc50082c66907eba4aba51 assets/netherspace/models/item/nether_slab.json

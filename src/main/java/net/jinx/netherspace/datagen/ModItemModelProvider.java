@@ -104,6 +104,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.NETHER_BOAT);
         simpleItem(ModItems.NETHER_CHEST_BOAT);
+
+
+        saplingItem(ModBlocks.NETHER_SAPLING);
     }
 
     // Shoutout to El_Redstoniano for making this
@@ -152,6 +155,12 @@ public class ModItemModelProvider extends ItemModelProvider {
                                         "item/" + itemRegistryObject.getId().getPath()));
             });
         }
+    }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(NetherSpace.MOD_ID, "block/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

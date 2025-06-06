@@ -73,7 +73,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         hangingSignBlock(ModBlocks.NETHER_HANGING_SIGN.get(), ModBlocks.NETHER_WALL_HANGING_SIGN.get(),
                 blockTexture(ModBlocks.NETHER_PLANKS.get()));
 
+        saplingBlock(ModBlocks.NETHER_SAPLING);
+    }
 
+    private void saplingBlock(RegistryObject<Block> blockRegistryObject) {
+        simpleBlock(blockRegistryObject.get(),
+                models().cross(ForgeRegistries.BLOCKS.getKey(blockRegistryObject.get()).getPath(), blockTexture(blockRegistryObject.get())).renderType("cutout"));
     }
 
     public void hangingSignBlock(Block signBlock, Block wallSignBlock, ResourceLocation texture) {

@@ -47,13 +47,16 @@
                 },
                 {
                   "chances": [
-                    1.0E-6
+                    0.05,
+                    0.0625,
+                    0.083333336,
+                    0.1
                   ],
                   "condition": "minecraft:table_bonus",
                   "enchantment": "minecraft:fortune"
                 }
               ],
-              "name": "minecraft:air"
+              "name": "netherspace:nether_sapling"
             }
           ]
         }

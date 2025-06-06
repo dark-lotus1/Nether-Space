@@ -65,7 +65,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.NETHER_PLANKS.get());
 
         this.add(ModBlocks.NETHER_LEAVES.get(), block ->
-        createLeavesDrops(block, Block.byItem(ModItems.NETHER_INGOT.get()), 0.000001f));
+                createLeavesDrops(block, ModBlocks.NETHER_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
 
         this.add(ModBlocks.NETHER_SIGN.get(), block ->
                 createSingleItemTable(ModItems.NETHER_SIGN.get()));
@@ -75,6 +75,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 createSingleItemTable(ModItems.NETHER_HANGING_SIGN.get()));
         this.add(ModBlocks.NETHER_WALL_HANGING_SIGN.get(), block ->
                 createSingleItemTable(ModItems.NETHER_HANGING_SIGN.get()));
+
+        this.dropSelf(ModBlocks.NETHER_SAPLING.get());
 
     }
 

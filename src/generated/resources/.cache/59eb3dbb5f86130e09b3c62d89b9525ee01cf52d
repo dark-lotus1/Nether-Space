@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-05T00:39:12.8122748	Loot Tables
+// 1.20.1	2025-06-06T15:46:58.3299594	Loot Tables
 9e4dfb137906b98d30acdf04b5c0ac6d23cf659b data/netherspace/loot_tables/blocks/dragon_roar_block.json
 9325cb1366e4d2d90b1c7c9aa157313fb2aa586b data/netherspace/loot_tables/blocks/end_stone_nether_ore.json
 b4e940a2ef63306ff67589dc8c2a091b64c743fa data/netherspace/loot_tables/blocks/gem_polishing_station_block.json
@@ -8,11 +8,12 @@ be477ca5abe92de8589eb7f7ffb4ce1450f3e342 data/netherspace/loot_tables/blocks/net
 ad8e68dcc91e68e7a99b59fd644c0a8f18d428bc data/netherspace/loot_tables/blocks/nether_fence.json
 29bbd702c50c6af009c65208133f5d0e6886f62b data/netherspace/loot_tables/blocks/nether_fence_gate.json
 9ebcdf45b91f40ce78fcc14f0065e8747e2dc77c data/netherspace/loot_tables/blocks/nether_hanging_sign.json
-70a1174b9e155ab1dfa1cebb181cc56cc1be29a5 data/netherspace/loot_tables/blocks/nether_leaves.json
+09221c5731f47835e55ae2fc40498b299528cab1 data/netherspace/loot_tables/blocks/nether_leaves.json
 f979619faab1132897c438639194aee9f40eb67e data/netherspace/loot_tables/blocks/nether_log.json
 68bc1397d5971f457efae7d5bc4c899a82618f07 data/netherspace/loot_tables/blocks/nether_nether_ore.json
 8b10589a6f190bc6df847bb03d3f40d9a1db085a data/netherspace/loot_tables/blocks/nether_planks.json
 ea6160f4f24687c9efe9e4adea539928936d2dc0 data/netherspace/loot_tables/blocks/nether_pressure_plate.json
+0625a0d2c2e7bcf792696de86081403827025b43 data/netherspace/loot_tables/blocks/nether_sapling.json
 fe0823952ba553413b6ab594cb50fb2fcd70a0ff data/netherspace/loot_tables/blocks/nether_sign.json
 c86b82d907b00a74c10eb33c02d09271e78e3951 data/netherspace/loot_tables/blocks/nether_slab.json
 f4e0f9a2402f8ca4818e09dd4d033fd2accefae7 data/netherspace/loot_tables/blocks/nether_stairs.json

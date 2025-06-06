@@ -5,6 +5,7 @@ import net.jinx.netherspace.block.custom.*;
 import net.jinx.netherspace.item.ModItems;
 import net.jinx.netherspace.sound.ModSounds;
 import net.jinx.netherspace.util.ModWoodTypes;
+import net.jinx.netherspace.worldgen.tree.NetherTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
@@ -130,6 +131,12 @@ public class ModBlocks {
             () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN), ModWoodTypes.NETHERW));
     public static final RegistryObject<Block> NETHER_WALL_HANGING_SIGN = BLOCKS.register("nether_wall_hanging_sign",
             () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.NETHERW));
+
+
+
+
+    public static final RegistryObject<Block> NETHER_SAPLING = registerBlock("nether_sapling",
+            () -> new SaplingBlock(new NetherTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
