@@ -36,6 +36,9 @@
 
   "item.netherspace.skittle_seeds": "Skeetol Seeds",
 
+  "item.netherspace.nether_boat": "Nether Boat",
+  "item.netherspace.nether_chest_boat": "Nether Chest Boat",
+
   "item.netherspace.jake_helmet": "Jake Helmet",
   "item.netherspace.jake_chestplate": "Jake Chestplate",
   "item.netherspace.jake_leggings": "Jake Leggings",
@@ -82,6 +85,7 @@
   "tooltip.netherspace.dragon_roar_block.tooltip": "A reminder of Her Majesty, The Tyrant Dragon Queen",
 
   "entity.minecraft.villager.netherspace.dragonmancer": "Dragonmancer Jake",
+  "entity.minecraft.mod_chest_boat": "Boat with Chest",
 
   "sounds.netherspace.metal_detector_found_ore": "Metal Detector Jingle",
 

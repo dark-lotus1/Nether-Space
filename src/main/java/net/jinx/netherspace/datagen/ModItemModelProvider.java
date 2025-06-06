@@ -101,6 +101,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.NETHER_SIGN);
         simpleItem(ModItems.NETHER_HANGING_SIGN);
+
+        simpleItem(ModItems.NETHER_BOAT);
+        simpleItem(ModItems.NETHER_CHEST_BOAT);
     }
 
     // Shoutout to El_Redstoniano for making this

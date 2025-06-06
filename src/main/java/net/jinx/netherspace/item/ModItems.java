@@ -3,9 +3,11 @@ package net.jinx.netherspace.item;
 import net.jinx.netherspace.NetherSpace;
 import net.jinx.netherspace.block.ModBlocks;
 import net.jinx.netherspace.entity.ModEntities;
+import net.jinx.netherspace.entity.custom.ModBoatEntity;
 import net.jinx.netherspace.item.custom.FuelItem;
 import net.jinx.netherspace.item.custom.MetalDetectorItem;
 import net.jinx.netherspace.item.custom.ModArmorItem;
+import net.jinx.netherspace.item.custom.ModBoatItem;
 import net.jinx.netherspace.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -103,6 +105,11 @@ public class ModItems {
             () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.NETHER_SIGN.get(), ModBlocks.NETHER_WALL_SIGN.get()));
     public static final RegistryObject<Item> NETHER_HANGING_SIGN = ITEMS.register("nether_hanging_sign",
             () -> new HangingSignItem(ModBlocks.NETHER_HANGING_SIGN.get(), ModBlocks.NETHER_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+
+    public static final RegistryObject<Item> NETHER_BOAT = ITEMS.register("nether_boat",
+            () -> new ModBoatItem(false, ModBoatEntity.Type.NETHER, new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_CHEST_BOAT = ITEMS.register("nether_chest_boat",
+            () -> new ModBoatItem(true, ModBoatEntity.Type.NETHER, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

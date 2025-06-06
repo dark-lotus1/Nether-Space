@@ -4,7 +4,9 @@ import com.mojang.logging.LogUtils;
 import net.jinx.netherspace.block.ModBlocks;
 import net.jinx.netherspace.block.entity.ModBlockEntities;
 import net.jinx.netherspace.entity.ModEntities;
+import net.jinx.netherspace.entity.client.ModBoatRenderer;
 import net.jinx.netherspace.entity.client.RhinoRenderer;
+import net.jinx.netherspace.entity.custom.ModChestBoatEntity;
 import net.jinx.netherspace.item.ModCreativeModeTabs;
 import net.jinx.netherspace.item.ModItems;
 import net.jinx.netherspace.loot.ModLootModifiers;
@@ -85,6 +87,8 @@ public class NetherSpace {
             Sheets.addWoodType(ModWoodTypes.NETHERW);
 
             EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
+            EntityRenderers.register(ModEntities.MOD_BOAT.get(), pContext -> new ModBoatRenderer(pContext, false));
+            EntityRenderers.register(ModEntities.MOD_CHEST_BOAT.get(), pContext -> new ModBoatRenderer(pContext, true));
 
             MenuScreens.register(ModMenuTypes.GEM_POLISHING_MENU.get(), GemPolishingStationScreen::new);
         }
