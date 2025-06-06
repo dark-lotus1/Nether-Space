@@ -70,7 +70,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         signBlock(((StandingSignBlock) ModBlocks.NETHER_SIGN.get()), ((WallSignBlock) ModBlocks.NETHER_WALL_SIGN.get()),
                 blockTexture(ModBlocks.NETHER_PLANKS.get()));
 
-        hangingSignBlock(ModBlocks.NETHER_HANGING_SIGN.get(),  ModBlocks.NETHER_WALL_HANGING_SIGN.get(),
+        hangingSignBlock(ModBlocks.NETHER_HANGING_SIGN.get(), ModBlocks.NETHER_WALL_HANGING_SIGN.get(),
                 blockTexture(ModBlocks.NETHER_PLANKS.get()));
 
 

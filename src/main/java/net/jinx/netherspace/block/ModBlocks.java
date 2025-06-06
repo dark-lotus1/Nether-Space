@@ -127,9 +127,9 @@ public class ModBlocks {
             () -> new ModWallSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN), ModWoodTypes.NETHERW));
 
     public static final RegistryObject<Block> NETHER_HANGING_SIGN = BLOCKS.register("nether_hanging_sign",
-            () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.NETHERW));
+            () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN), ModWoodTypes.NETHERW));
     public static final RegistryObject<Block> NETHER_WALL_HANGING_SIGN = BLOCKS.register("nether_wall_hanging_sign",
-            () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN), ModWoodTypes.NETHERW));
+            () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.NETHERW));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
