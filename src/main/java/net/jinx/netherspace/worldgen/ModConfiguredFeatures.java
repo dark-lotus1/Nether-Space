@@ -42,7 +42,7 @@ public class ModConfiguredFeatures {
                 new StraightTrunkPlacer(5, 4, 3),
 
                 BlockStateProvider.simple(ModBlocks.NETHER_LEAVES.get()),
-                new BlobFoliagePlacer(ConstantInt.of(3), ConstantInt.of(6), 3),
+                new BlobFoliagePlacer(ConstantInt.of(3), ConstantInt.of(2), 3),
 
                 new TwoLayersFeatureSize(1, 0, 2)).build());
     }
