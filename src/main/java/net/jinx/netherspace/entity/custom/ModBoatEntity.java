@@ -91,9 +91,7 @@ public class ModBoatEntity extends Boat {
             return this.name;
         }
 
-        /**
-         * Get a boat type by its enum ordinal
-         */
+
         public static ModBoatEntity.Type byId(int pId) {
             return BY_ID.apply(pId);
         }

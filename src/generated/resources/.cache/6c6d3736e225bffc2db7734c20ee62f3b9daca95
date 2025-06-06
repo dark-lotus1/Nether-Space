@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-05T00:39:12.8122748	Item Models: netherspace
+// 1.20.1	2025-06-06T11:27:25.9411647	Item Models: netherspace
 ff440191d8f4225da3b85729f8979cf122721794 assets/netherspace/models/item/americas_fries.json
 f9ac6f79f4b32e217e45484289e4c0a02b0c61ab assets/netherspace/models/item/bar_brawl_music_disc.json
 4857f75d3b57de3e79be2d0aac6d8663b7bbc52a assets/netherspace/models/item/hori_boots.json
@@ -65,6 +65,7 @@ c43f8546ac9750e3f7eb6dafb62e234c3f8a129d assets/netherspace/models/item/metal_de
 ac5bbe87760df60a64570b743373f270d600184d assets/netherspace/models/item/mtg_swamp.json
 5ea95f13955a558ed0e080594d8e06cdba0b0520 assets/netherspace/models/item/nethercone.json
 0d2f38f1a954600ba9f2b3f1cfe058ae45fb463b assets/netherspace/models/item/nether_axe.json
+045abac217d9cfa907ab735a1768612d35d25bad assets/netherspace/models/item/nether_boat.json
 ed5efe1d212ddfbafe25e0c5e075e86a44729f13 assets/netherspace/models/item/nether_boots.json
 d7779da835c62f6bd5da34af5ef04968aaa47ab5 assets/netherspace/models/item/nether_boots_amethyst_trim.json
 d043133df4ca88872d89e847bda7422091850e67 assets/netherspace/models/item/nether_boots_copper_trim.json
@@ -88,6 +89,7 @@ f9ca24799fb297faeb015ca7d1940f4935b97a28 assets/netherspace/models/item/nether_c
 6615e74c169e824e8995a58bb592d9a1ba40df45 assets/netherspace/models/item/nether_chestplate_netherite_trim.json
 276b808738e49973a21b4aeb3531b7544a9cb57d assets/netherspace/models/item/nether_chestplate_quartz_trim.json
 4d615bce47376867345739783be2b8ff130eb004 assets/netherspace/models/item/nether_chestplate_redstone_trim.json
+b9d9c417ae2528677fe6ea6da43aba5db7c5244f assets/netherspace/models/item/nether_chest_boat.json
 e9c94d77ab8a7c47eaa0cf5851a388ab7cd3490a assets/netherspace/models/item/nether_door.json
 9d834a7da32ab842003f17efdcf5eff8ddba2544 assets/netherspace/models/item/nether_fence.json
 b8c01d40e7878e7f4235b6a65fe3bc1c8bfc2070 assets/netherspace/models/item/nether_fence_gate.json
