@@ -16,12 +16,17 @@ import net.jinx.netherspace.screen.ModMenuTypes;
 import net.jinx.netherspace.sound.ModSounds;
 import net.jinx.netherspace.util.ModWoodTypes;
 import net.jinx.netherspace.villager.ModVillagers;
+import net.jinx.netherspace.worldgen.biome.ModTerrablender;
+import net.jinx.netherspace.worldgen.biome.surface.ModSurfaceRules;
 import net.jinx.netherspace.worldgen.tree.ModFoliagePlacers;
 import net.jinx.netherspace.worldgen.tree.ModTrunkPlacerTypes;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
+import net.minecraft.world.level.levelgen.SurfaceRules;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -33,6 +38,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import terrablender.api.SurfaceRuleManager;
 
 import javax.swing.text.html.parser.Entity;
 
@@ -63,6 +69,8 @@ public class NetherSpace {
         ModTrunkPlacerTypes.register(modEventBus);
         ModFoliagePlacers.register(modEventBus);
 
+        ModTerrablender.registerBiomes();
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -70,6 +78,11 @@ public class NetherSpace {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+
+
+            SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
+        });
 
     }
 
