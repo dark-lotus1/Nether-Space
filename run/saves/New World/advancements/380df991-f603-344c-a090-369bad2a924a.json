@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:beach": "2025-05-30 16:05:45 -0700",
+      "minecraft:river": "2025-06-06 20:20:49 -0700",
       "minecraft:forest": "2025-05-30 14:33:39 -0700",
       "minecraft:ocean": "2025-05-30 16:04:50 -0700",
       "minecraft:plains": "2025-06-02 22:11:54 -0700"
@@ -373,6 +374,8 @@
       "minecraft:skeleton": "2025-05-31 00:14:09 -0700",
       "minecraft:spider": "2025-06-02 19:03:59 -0700",
       "minecraft:creeper": "2025-06-02 22:12:09 -0700",
+      "minecraft:ender_dragon": "2025-06-06 20:16:49 -0700",
+      "minecraft:enderman": "2025-06-06 20:10:46 -0700",
       "minecraft:zombie": "2025-05-31 00:04:11 -0700"
     },
     "done": false
@@ -836,6 +839,42 @@
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2025-06-06 15:49:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2025-06-06 20:16:49 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-06-06 20:10:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-06-06 20:17:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-06-06 20:10:39 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-06-06 20:10:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-06-06 20:10:39 -0700"
     },
     "done": true
   },
