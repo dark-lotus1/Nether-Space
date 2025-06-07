@@ -1,9 +1,9 @@
-// 1.20.1	2025-06-06T20:24:39.9663038	Registries
+// 1.20.1	2025-06-06T20:48:35.8226923	Registries
 c49f9c97d4d794fb684d693daf2e50726aa2fe37 data/netherspace/forge/biome_modifier/add_end_nether_ore.json
 ef1db49559a1c888e21ce1a83a193e7e1e6fc7af data/netherspace/forge/biome_modifier/add_nether_nether_ore.json
 44cae6881e1b2d232e8f134085600d251eb6b800 data/netherspace/forge/biome_modifier/add_tree_nether.json
 eb41cab3a2dbe0e557db638ce1be58b2489ea7fd data/netherspace/worldgen/configured_feature/end_nether_ore.json
-b15203487b3027abeb33cdc4c8607f1dcb2ad625 data/netherspace/worldgen/configured_feature/nether.json
+6e1332fc84542517a485f674239b7a0586e62cf2 data/netherspace/worldgen/configured_feature/nether.json
 9838176eebe82f5f0570db181594d21e8ad6d89b data/netherspace/worldgen/configured_feature/nether_nether_ore.json
 60cdcf9e81c2368f05bf9882413f8658d3c7a5ab data/netherspace/worldgen/placed_feature/end_nether_ore_placed.json
 dfd38006fc1186e69518d59ad765850b70a3f65e data/netherspace/worldgen/placed_feature/nether_nether_ore_placed.json
