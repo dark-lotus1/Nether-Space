@@ -2,6 +2,7 @@ package net.jinx.netherspace.worldgen;
 
 import net.jinx.netherspace.NetherSpace;
 import net.jinx.netherspace.block.ModBlocks;
+import net.jinx.netherspace.worldgen.tree.custom.NetherFoliagePlacer;
 import net.jinx.netherspace.worldgen.tree.custom.NetherTrunkPlacer;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
@@ -43,7 +44,7 @@ public class ModConfiguredFeatures {
                 new NetherTrunkPlacer(5, 4, 3),
 
                 BlockStateProvider.simple(ModBlocks.NETHER_LEAVES.get()),
-                new BlobFoliagePlacer(ConstantInt.of(3), ConstantInt.of(2), 3),
+                new NetherFoliagePlacer(ConstantInt.of(3), ConstantInt.of(2), 3),
 
                 new TwoLayersFeatureSize(1, 0, 2)).build());
     }

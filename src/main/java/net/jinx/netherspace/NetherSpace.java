@@ -16,6 +16,7 @@ import net.jinx.netherspace.screen.ModMenuTypes;
 import net.jinx.netherspace.sound.ModSounds;
 import net.jinx.netherspace.util.ModWoodTypes;
 import net.jinx.netherspace.villager.ModVillagers;
+import net.jinx.netherspace.worldgen.tree.ModFoliagePlacers;
 import net.jinx.netherspace.worldgen.tree.ModTrunkPlacerTypes;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.Sheets;
@@ -60,6 +61,7 @@ public class NetherSpace {
         ModRecipes.register(modEventBus);
 
         ModTrunkPlacerTypes.register(modEventBus);
+        ModFoliagePlacers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

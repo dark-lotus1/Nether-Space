@@ -41,7 +41,7 @@ public class NetherTrunkPlacer extends TrunkPlacer {
         for (int i = 0; i < height; i++) {
             placeLog(pLevel, pBlockSetter, pRandom, pPos.above(i), pConfig);
 
-            if (i % 2 == 0&& pRandom.nextBoolean()) {
+            if (i % 2 == 0 && pRandom.nextBoolean()) {
                 if (pRandom.nextFloat() > 0.25f) {
                     for (int x = 0; x < 4; x++) {
                         pBlockSetter.accept(pPos.above(i).relative(Direction.NORTH, x), ((BlockState)
