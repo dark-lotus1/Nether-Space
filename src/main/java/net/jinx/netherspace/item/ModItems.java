@@ -34,7 +34,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
-            () -> new MetalDetectorItem(new Item.Properties().durability(100000000)));
+            () -> new MetalDetectorItem(new Item.Properties().durability((int) Double.POSITIVE_INFINITY)));
 
     public static final RegistryObject<Item> NETHER_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("nether_upgrade_smithing_template",
             () -> new Item(new Item.Properties()));
@@ -51,15 +51,15 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> NETHER_SWORD = ITEMS.register("nether_sword",
-            () -> new SwordItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
+            () -> new SwordItem(ModToolTiers.NETHER, (int) Double.POSITIVE_INFINITY, (int) Double.POSITIVE_INFINITY, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_AXE = ITEMS.register("nether_axe",
-            () -> new AxeItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
+            () -> new AxeItem(ModToolTiers.NETHER, (int) Double.POSITIVE_INFINITY, (int) Double.POSITIVE_INFINITY, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_PICKAXE = ITEMS.register("nether_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.NETHER, (int) Double.POSITIVE_INFINITY, (int) Double.POSITIVE_INFINITY, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_SHOVEL = ITEMS.register("nether_shovel",
-            () -> new ShovelItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.NETHER, (int) Double.POSITIVE_INFINITY, (int) Double.POSITIVE_INFINITY, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_HOE = ITEMS.register("nether_hoe",
-            () -> new HoeItem(ModToolTiers.NETHER, 999999999, 999999999, new  Item.Properties()));
+            () -> new HoeItem(ModToolTiers.NETHER, (int) Double.POSITIVE_INFINITY, (int) Double.POSITIVE_INFINITY, new  Item.Properties()));
 
     public static final RegistryObject<Item> LUMIX_GREAT_SWORD = ITEMS.register("lumix_great_sword",
             () -> new SwordItem(ModToolTiers.NETHER, 9999999, 0.1f, new  Item.Properties()));

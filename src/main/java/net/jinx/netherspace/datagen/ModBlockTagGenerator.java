@@ -40,7 +40,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.NETHER_NETHER_ORE.get())
                 .add(ModBlocks.END_STONE_NETHER_ORE.get());
 
-        this.tag(ModTags.Blocks.NEEDS_NETHER_TOOL)
+        this.tag(ModTags.Blocks.NEEDS_NEITHER_TOOL)
                 .add(ModBlocks.NETHER_BLOCK.get())
                 .add(ModBlocks.RAW_NETHER_BLOCK.get())
                 .add(ModBlocks.DRAGON_ROAR_BLOCK.get());

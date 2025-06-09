@@ -23,6 +23,10 @@ public class ModSounds {
 
     public static final RegistryObject<SoundEvent> BAR_BRAWL = registerSoundEvents("bar_brawl");
 
+    public static final RegistryObject<SoundEvent> HIGH_SCHOOL_PROJECT = registerSoundEvents("high_school_project");
+    public static final RegistryObject<SoundEvent> NEITHER_AMBIENT = registerSoundEvents("neither_ambient");
+    public static final RegistryObject<SoundEvent> RANDOM_SOUND = registerSoundEvents("random_sound");
+
     public static final ForgeSoundType DRAGON_ROAR_BLOCK_SOUNDS = new ForgeSoundType(1f, 1f,
             ModSounds.DRAGON_ROAR_BLOCK_BREAK,
             ModSounds.DRAGON_ROAR_BLOCK_STEP,

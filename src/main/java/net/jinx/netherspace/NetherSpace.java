@@ -6,7 +6,6 @@ import net.jinx.netherspace.block.entity.ModBlockEntities;
 import net.jinx.netherspace.entity.ModEntities;
 import net.jinx.netherspace.entity.client.ModBoatRenderer;
 import net.jinx.netherspace.entity.client.RhinoRenderer;
-import net.jinx.netherspace.entity.custom.ModChestBoatEntity;
 import net.jinx.netherspace.item.ModCreativeModeTabs;
 import net.jinx.netherspace.item.ModItems;
 import net.jinx.netherspace.loot.ModLootModifiers;
@@ -16,6 +15,8 @@ import net.jinx.netherspace.screen.ModMenuTypes;
 import net.jinx.netherspace.sound.ModSounds;
 import net.jinx.netherspace.util.ModWoodTypes;
 import net.jinx.netherspace.villager.ModVillagers;
+import net.jinx.netherspace.worldgen.biome.ModTerrablender;
+import net.jinx.netherspace.worldgen.biome.surface.ModSurfaceRules;
 import net.jinx.netherspace.worldgen.tree.ModFoliagePlacers;
 import net.jinx.netherspace.worldgen.tree.ModTrunkPlacerTypes;
 import net.minecraft.client.gui.screens.MenuScreens;
@@ -33,8 +34,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-
-import javax.swing.text.html.parser.Entity;
+import terrablender.api.SurfaceRuleManager;
 
 @Mod(NetherSpace.MOD_ID)
 public class NetherSpace {
@@ -63,6 +63,8 @@ public class NetherSpace {
         ModTrunkPlacerTypes.register(modEventBus);
         ModFoliagePlacers.register(modEventBus);
 
+        ModTerrablender.registerBiomes();
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -71,6 +73,8 @@ public class NetherSpace {
 
     private void commonSetup(final FMLCommonSetupEvent event) {
 
+
+        SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

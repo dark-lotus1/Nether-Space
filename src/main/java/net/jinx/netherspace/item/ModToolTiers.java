@@ -14,6 +14,6 @@ import java.util.List;
 public class ModToolTiers {
     public static final Tier NETHER = TierSortingRegistry.registerTier(
             new ForgeTier(100, 999999999, 999999999, 999999999, 999999999,
-                    ModTags.Blocks.NEEDS_NETHER_TOOL, () -> Ingredient.of(ModItems.NETHER_INGOT.get())),
+                    ModTags.Blocks.NEEDS_NEITHER_TOOL, () -> Ingredient.of(ModItems.NETHER_INGOT.get())),
             new ResourceLocation(NetherSpace.MOD_ID, "nether_ingot"), List.of(Tiers.NETHERITE), List.of());
 }

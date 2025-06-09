@@ -3,7 +3,6 @@ package net.jinx.netherspace.datagen;
 import net.jinx.netherspace.NetherSpace;
 import net.jinx.netherspace.item.ModItems;
 import net.jinx.netherspace.loot.AddItemModifier;
-import net.jinx.netherspace.util.ModTags;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Blocks;

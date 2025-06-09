@@ -1,5 +1,5 @@
 {
-  "item.netherspace.nether_ingot": "Nether Ingot",
+  "item.netherspace.nether_ingot": "Neither Ingot",
   "item.netherspace.jake": "Jake",
   "item.netherspace.lumix_ingot": "Lumix Ingot",
   "item.netherspace.skuly_ingot": "Skuly Ingot",
@@ -8,7 +8,7 @@
 
   "item.netherspace.metal_detector": "Metal Detector",
 
-  "item.netherspace.nether_upgrade_smithing_template": "Nether Upgrade Template",
+  "item.netherspace.nether_upgrade_smithing_template": "Neither Upgrade Template",
 
   "item.netherspace.americas_fries": "Americas Fries",
   "item.netherspace.skittle": "Skeetol",
@@ -17,27 +17,27 @@
   "item.netherspace.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.netherspace.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
-  "item.netherspace.nethercone": "Nethercone",
+  "item.netherspace.nethercone": "Neithercone",
 
-  "item.netherspace.nether_sword": "Nether Sword",
-  "item.netherspace.nether_axe": "Nether Axe",
-  "item.netherspace.nether_pickaxe": "Nether Pickaxe",
-  "item.netherspace.nether_shovel": "Nether Shovel",
-  "item.netherspace.nether_hoe": "Nether Hoe",
+  "item.netherspace.nether_sword": "Neither Sword",
+  "item.netherspace.nether_axe": "Neither Axe",
+  "item.netherspace.nether_pickaxe": "Neither Pickaxe",
+  "item.netherspace.nether_shovel": "Neither Shovel",
+  "item.netherspace.nether_hoe": "Neither Hoe",
 
   "item.netherspace.lumix_great_sword": "Lumix's Great Sword",
   "item.netherspace.skullox_mace": "Skullox's Mace",
   "item.netherspace.jordan_katana": "Jordan's Katana",
 
-  "item.netherspace.nether_helmet": "Nether Helmet",
-  "item.netherspace.nether_chestplate": "Nether Chestplate",
-  "item.netherspace.nether_leggings": "Nether Leggings",
-  "item.netherspace.nether_boots": "Nether Boots",
+  "item.netherspace.nether_helmet": "Neither Helmet",
+  "item.netherspace.nether_chestplate": "Neither Chestplate",
+  "item.netherspace.nether_leggings": "Neither Leggings",
+  "item.netherspace.nether_boots": "Neither Boots",
 
   "item.netherspace.skittle_seeds": "Skeetol Seeds",
 
-  "item.netherspace.nether_boat": "Nether Boat",
-  "item.netherspace.nether_chest_boat": "Nether Chest Boat",
+  "item.netherspace.nether_boat": "Neither Boat",
+  "item.netherspace.nether_chest_boat": "Neither Chest Boat",
 
 
 
@@ -54,36 +54,36 @@
   "block.netherspace.nether_block": "Block of Nether",
   "block.netherspace.raw_nether_block": "Block of Raw Nether",
 
-  "block.netherspace.nether_nether_ore": "Nether Ore",
-  "block.netherspace.end_stone_nether_ore": "Endstone Nether Ore",
+  "block.netherspace.nether_nether_ore": "Nether Neither Ore",
+  "block.netherspace.end_stone_nether_ore": "Endstone Neither Ore",
 
   "block.netherspace.dragon_roar_block": "Dragon Roar",
 
-  "block.netherspace.nether_stairs": "Nether Stairs",
-  "block.netherspace.nether_slab": "Nether Slab",
-  "block.netherspace.nether_button": "Nether Button",
-  "block.netherspace.nether_pressure_plate": "Nether Pressure Plate",
-  "block.netherspace.nether_fence": "Nether Fence",
-  "block.netherspace.nether_fence_gate": "Nether Fence Gate",
-  "block.netherspace.nether_wall": "Nether Wall",
-  "block.netherspace.nether_door": "Nether Door",
-  "block.netherspace.nether_trapdoor": "Nether Trapdoor",
+  "block.netherspace.nether_stairs": "Neither Stairs",
+  "block.netherspace.nether_slab": "Neither Slab",
+  "block.netherspace.nether_button": "Neither Button",
+  "block.netherspace.nether_pressure_plate": "Neither Pressure Plate",
+  "block.netherspace.nether_fence": "Neither Fence",
+  "block.netherspace.nether_fence_gate": "Neither Fence Gate",
+  "block.netherspace.nether_wall": "Neither Wall",
+  "block.netherspace.nether_door": "Neither Door",
+  "block.netherspace.nether_trapdoor": "Neither Trapdoor",
 
 
 
   "block.netherspace.gem_polishing_station": "Gem Polishing Station",
 
-  "block.netherspace.nether_log": "Nether Log",
-  "block.netherspace.nether_wood": "Nether Wood",
-  "block.netherspace.stripped_nether_log": "Stripped Nether Log",
-  "block.netherspace.stripped_nether_wood": "Stripped Nether Wood",
-  "block.netherspace.nether_planks": "Nether Planks",
-  "block.netherspace.nether_leaves": "Nether Leaves",
+  "block.netherspace.nether_log": "Neither Log",
+  "block.netherspace.nether_wood": "Neither Wood",
+  "block.netherspace.stripped_nether_log": "Stripped Neither Log",
+  "block.netherspace.stripped_nether_wood": "Stripped Neither Wood",
+  "block.netherspace.nether_planks": "Neither Planks",
+  "block.netherspace.nether_leaves": "Neither Leaves",
 
-  "block.netherspace.nether_sign": "Nether Sign",
-  "block.netherspace.nether_hanging_sign": "Nether Sign",
+  "block.netherspace.nether_sign": "Neither Sign",
+  "block.netherspace.nether_hanging_sign": "Neither Sign",
 
-  "block.netherspace.nether_sapling": "Nether Sapling",
+  "block.netherspace.nether_sapling": "Neither Sapling",
 
   "tooltip.netherspace.metal_detector.tooltip": "Finds valuables under the interacted block!",
   "tooltip.netherspace.dragon_roar_block.tooltip": "A reminder of Her Majesty, The Tyrant Dragon Queen",
@@ -94,5 +94,5 @@
   "sounds.netherspace.metal_detector_found_ore": "Metal Detector Jingle",
 
 
-  "creativetab.nether_space.tab": "Nether Space"
+  "creativetab.nether_space.tab": "Neither Space"
 }
