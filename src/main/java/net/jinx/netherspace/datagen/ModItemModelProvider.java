@@ -58,6 +58,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MTG_SWAMP);
 
         simpleItem(ModItems.BAR_BRAWL_MUSIC_DISC);
+        simpleItem(ModItems.EERIE_EXPERIMENT_MUSIC_DISK);
 
         simpleItem(ModItems.NETHER_UPGRADE_SMITHING_TEMPLATE);
 

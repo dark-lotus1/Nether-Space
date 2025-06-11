@@ -37,20 +37,24 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 );
 
         this.tag(ItemTags.MUSIC_DISCS)
-                .add(ModItems.BAR_BRAWL_MUSIC_DISC.get()
-                );
+                .add(ModItems.BAR_BRAWL_MUSIC_DISC.get())
+                .add(ModItems.EERIE_EXPERIMENT_MUSIC_DISK.get())
+        ;
 
         this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
-                .add(ModItems.BAR_BRAWL_MUSIC_DISC.get()
-                );
+                .add(ModItems.BAR_BRAWL_MUSIC_DISC.get())
+                .add(ModItems.EERIE_EXPERIMENT_MUSIC_DISK.get())
+        ;
 
         this.tag(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.NETHER_LOG.get().asItem())
                 .add(ModBlocks.NETHER_WOOD.get().asItem())
                 .add(ModBlocks.STRIPPED_NETHER_LOG.get().asItem())
-                .add(ModBlocks.STRIPPED_NETHER_WOOD.get().asItem());
+                .add(ModBlocks.STRIPPED_NETHER_WOOD.get().asItem())
+        ;
 
         this.tag(ItemTags.PLANKS)
-                .add(ModBlocks.NETHER_PLANKS.get().asItem());
+                .add(ModBlocks.NETHER_PLANKS.get().asItem())
+        ;
     }
 }

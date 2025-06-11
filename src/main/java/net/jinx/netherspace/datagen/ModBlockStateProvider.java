@@ -74,6 +74,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 blockTexture(ModBlocks.NETHER_PLANKS.get()));
 
         saplingBlock(ModBlocks.NETHER_SAPLING);
+
+        blockWithItem(ModBlocks.MOD_PORTAL);
     }
 
     private void saplingBlock(RegistryObject<Block> blockRegistryObject) {

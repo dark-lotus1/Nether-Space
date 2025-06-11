@@ -74,7 +74,7 @@ public class NetherSpace {
     private void commonSetup(final FMLCommonSetupEvent event) {
 
 
-        SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD, MOD_ID, ModSurfaceRules.makeRules());
+        SurfaceRuleManager.addSurfaceRules(SurfaceRuleManager.RuleCategory.OVERWORLD , MOD_ID, ModSurfaceRules.makeRules());
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

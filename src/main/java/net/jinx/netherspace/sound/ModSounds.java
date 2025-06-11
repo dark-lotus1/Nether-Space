@@ -23,7 +23,7 @@ public class ModSounds {
 
     public static final RegistryObject<SoundEvent> BAR_BRAWL = registerSoundEvents("bar_brawl");
 
-    public static final RegistryObject<SoundEvent> HIGH_SCHOOL_PROJECT = registerSoundEvents("high_school_project");
+    public static final RegistryObject<SoundEvent> EERIE_EXPERIMENT = registerSoundEvents("eerie_experiment");
     public static final RegistryObject<SoundEvent> NEITHER_AMBIENT = registerSoundEvents("neither_ambient");
     public static final RegistryObject<SoundEvent> RANDOM_SOUND = registerSoundEvents("random_sound");
 

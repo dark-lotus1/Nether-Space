@@ -53,7 +53,7 @@ public class ModBiomes {
         BiomeDefaultFeatures.addAncientDebris(biomeBuilder);
         BiomeDefaultFeatures.addExtraEmeralds(biomeBuilder);
 
-        biomeBuilder.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, VegetationPlacements.TREES_CHERRY);
+
 
         BiomeDefaultFeatures.addDefaultMushrooms(biomeBuilder);
         BiomeDefaultFeatures.addDefaultExtraVegetation(biomeBuilder);

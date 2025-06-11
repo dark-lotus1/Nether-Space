@@ -96,6 +96,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
             () -> new RecordItem(6, ModSounds.BAR_BRAWL, new Item.Properties().stacksTo(1), 2440));
+    public static final RegistryObject<Item> EERIE_EXPERIMENT_MUSIC_DISK = ITEMS.register("eerie_experiment_music_disc",
+            () -> new RecordItem(20, ModSounds.EERIE_EXPERIMENT, new Item.Properties().stacksTo(1), 3140));
 
     public static final RegistryObject<Item> RHINO_SPAWN_EGG = ITEMS.register("rhino_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c6,

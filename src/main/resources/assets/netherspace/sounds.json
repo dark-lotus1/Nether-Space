@@ -42,5 +42,29 @@
         "stream": true
       }
     ]
+  },
+  "high_school_project": {
+    "sounds": [
+      {
+        "name": "netherspace:high_school_project",
+        "stream": true
+      }
+    ]
+  },
+  "neither_ambient": {
+    "sounds": [
+      {
+        "name": "netherspace:neither_ambient",
+        "stream": true
+      }
+    ]
+  },
+  "random_sound": {
+    "sounds": [
+      {
+        "name": "netherspace:random_sound",
+        "stream": true
+      }
+    ]
   }
 }

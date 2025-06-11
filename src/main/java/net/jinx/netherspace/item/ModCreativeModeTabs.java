@@ -36,6 +36,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.MTG_SWAMP.get());
 
                         output.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+                        output.accept(ModItems.EERIE_EXPERIMENT_MUSIC_DISK.get());
 
                         output.accept(ModItems.NETHERCONE.get());
 
@@ -103,6 +104,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.NETHER_LEAVES.get());
 
                         output.accept(ModBlocks.NETHER_SAPLING.get());
+                        output.accept(ModBlocks.MOD_PORTAL.get());
 
                     })
                     .build());

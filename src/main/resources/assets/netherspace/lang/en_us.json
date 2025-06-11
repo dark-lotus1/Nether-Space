@@ -17,6 +17,9 @@
   "item.netherspace.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.netherspace.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
+  "item.netherspace.eerie_experiment_music_disc": "Eerie Experiment Music Disc",
+  "item.netherspace.eerie_experiment_music_disc.desc": "Jinx - Eerie Experiment",
+
   "item.netherspace.nethercone": "Neithercone",
 
   "item.netherspace.nether_sword": "Neither Sword",
@@ -84,6 +87,7 @@
   "block.netherspace.nether_hanging_sign": "Neither Sign",
 
   "block.netherspace.nether_sapling": "Neither Sapling",
+  "block.netherspace.mod_portal": "Neither Portal",
 
   "tooltip.netherspace.metal_detector.tooltip": "Finds valuables under the interacted block!",
   "tooltip.netherspace.dragon_roar_block.tooltip": "A reminder of Her Majesty, The Tyrant Dragon Queen",
