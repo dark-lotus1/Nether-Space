@@ -104,7 +104,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.NETHER_LEAVES.get());
 
                         output.accept(ModBlocks.NETHER_SAPLING.get());
-                        output.accept(ModBlocks.MOD_PORTAL.get());
+                        output.accept(ModBlocks.NEITHER_PORTAL.get());
 
                     })
                     .build());

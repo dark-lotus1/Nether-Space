@@ -75,7 +75,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         saplingBlock(ModBlocks.NETHER_SAPLING);
 
-        blockWithItem(ModBlocks.MOD_PORTAL);
+        blockWithItem(ModBlocks.NEITHER_PORTAL);
     }
 
     private void saplingBlock(RegistryObject<Block> blockRegistryObject) {
