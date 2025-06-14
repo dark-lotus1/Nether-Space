@@ -56,5 +56,11 @@ public class ModItemTagGenerator extends ItemTagsProvider {
         this.tag(ItemTags.PLANKS)
                 .add(ModBlocks.NETHER_PLANKS.get().asItem())
         ;
+
+        this.tag(ItemTags.SWORDS)
+                .add(ModItems.NETHER_SWORD.get())
+                .add(ModItems.LUMIX_GREAT_SWORD.get())
+                .add(ModItems.JORDAN_KATANA.get())
+        ;
     }
 }

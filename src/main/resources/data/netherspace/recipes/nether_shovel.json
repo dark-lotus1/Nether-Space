@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "addition": {
+    "item": "netherspace:nether_ingot"
+  },
+  "template": {
+    "item": "netherspace:nether_upgrade_smithing_template"
+  },
+  "result": {
+    "item": "netherspace:nether_shovel"
+  }
+}

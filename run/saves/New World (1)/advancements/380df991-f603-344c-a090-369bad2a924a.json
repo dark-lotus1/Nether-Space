@@ -934,5 +934,17 @@
     },
     "done": false
   },
+  "netherspace:recipes/misc/nether_block": {
+    "criteria": {
+      "has_nether_ingot": "2025-06-14 12:54:51 -0700"
+    },
+    "done": true
+  },
+  "netherspace:recipes/misc/raw_nether_block": {
+    "criteria": {
+      "has_nether_ingot": "2025-06-14 12:54:51 -0700"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
