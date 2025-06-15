@@ -7,9 +7,9 @@ Description: Exception in server tick loop
 java.lang.IllegalArgumentException: min > max: 0.2 -0.45
 	at net.minecraft.world.level.biome.Climate$Parameter.span(Climate.java:82) ~[forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/:?] {re:classloading}
 	at terrablender.api.ParameterUtils$Temperature.span(ParameterUtils.java:237) ~[TerraBlender-forge-1.20.1-3.0.0.169_mapped_parchment_2023.06.26-1.20.1.jar%23198!/:3.0.0.169] {re:classloading}
-	at net.jinx.netherspace.worldgen.biome.ModOverworldRegion.lambda$addBiomes$1(ModOverworldRegion.java:30) ~[%23196!/:?] {re:classloading}
+	at net.jinx.netherspace.worldgen.biome.custom.ModOverworldRegion.lambda$addBiomes$1(ModOverworldRegion.java:30) ~[%23196!/:?] {re:classloading}
 	at terrablender.api.Region.addModifiedVanillaOverworldBiomes(Region.java:154) ~[TerraBlender-forge-1.20.1-3.0.0.169_mapped_parchment_2023.06.26-1.20.1.jar%23198!/:3.0.0.169] {re:mixin,re:classloading}
-	at net.jinx.netherspace.worldgen.biome.ModOverworldRegion.addBiomes(ModOverworldRegion.java:23) ~[%23196!/:?] {re:classloading}
+	at net.jinx.netherspace.worldgen.biome.custom.ModOverworldRegion.addBiomes(ModOverworldRegion.java:23) ~[%23196!/:?] {re:classloading}
 	at terrablender.worldgen.noise.InitialLayer.lambda$new$1(InitialLayer.java:46) ~[TerraBlender-forge-1.20.1-3.0.0.169_mapped_parchment_2023.06.26-1.20.1.jar%23198!/:3.0.0.169] {re:classloading}
 	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[?:?] {}
 	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[?:?] {}
