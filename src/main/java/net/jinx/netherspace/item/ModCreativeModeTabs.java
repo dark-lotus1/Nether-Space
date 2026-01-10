@@ -27,6 +27,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.LUMIX_INGOT.get());
                         output.accept(ModItems.SKULY_INGOT.get());
                         output.accept(ModItems.HORI_INGOT.get());
+                        output.accept(ModItems.PYRRHA_INGOT.get());
+                        output.accept(ModItems.LILLY_INGOT.get());
                         output.accept(ModItems.RAW_NETHER.get());
 
                         output.accept(ModItems.METAL_DETECTOR.get());
@@ -59,6 +61,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.JAKE_CHESTPLATE.get());
                         output.accept(ModItems.JAKE_LEGGINGS.get());
                         output.accept(ModItems.JAKE_BOOTS.get());
+
+                        output.accept(ModItems.PYRRHA_TIARA.get());
+                        output.accept(ModItems.LILLY_SHIRT.get());
 
                         output.accept(ModItems.SKULY_MASK.get());
                         output.accept(ModItems.HORI_BOOTS.get());

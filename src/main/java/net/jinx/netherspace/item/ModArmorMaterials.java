@@ -20,6 +20,11 @@ public enum ModArmorMaterials implements ArmorMaterial {
             (int) Double.POSITIVE_INFINITY,
             () -> Ingredient.of(ModItems.NETHER_INGOT.get())),
 
+    PYRRHA("pyrrha", 999, new int[]{9999, 9999, 9999, 9999}, 9999,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 9999f, 9999f, () -> Ingredient.of(ModItems.PYRRHA_INGOT.get())),
+    LILLY("lilly", 999, new int[]{9999, 9999, 9999, 9999}, 9999,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 9999f, 9999f, () -> Ingredient.of(ModItems.LILLY_INGOT.get())),
+
     HORI("hori", 999, new int[]{9999, 9999, 9999, 9999}, 9999,
             SoundEvents.ARMOR_EQUIP_NETHERITE, 9999f, 9999f, () -> Ingredient.of(ModItems.HORI_INGOT.get())),
     SKULY("skuly", 999, new int[]{9999, 9999, 9999, 9999}, 9999,

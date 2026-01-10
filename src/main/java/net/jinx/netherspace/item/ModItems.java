@@ -30,6 +30,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HORI_INGOT = ITEMS.register("hori_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PYRRHA_INGOT = ITEMS.register("pyrrha_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> LILLY_INGOT = ITEMS.register("lilly_ingot",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_NETHER = ITEMS.register("raw_nether",
             () -> new Item(new Item.Properties()));
 
@@ -85,6 +89,11 @@ public class ModItems {
             () -> new ModArmorItem(ModArmorMaterials.JAKE, ArmorItem.Type.LEGGINGS, new  Item.Properties()));
     public static final RegistryObject<Item> JAKE_BOOTS = ITEMS.register("jake_boots",
             () -> new ModArmorItem(ModArmorMaterials.JAKE, ArmorItem.Type.BOOTS, new  Item.Properties()));
+
+    public static final RegistryObject<Item> PYRRHA_TIARA = ITEMS.register("pyrrha_tiara",
+            () -> new ArmorItem(ModArmorMaterials.PYRRHA, ArmorItem.Type.HELMET, new  Item.Properties()));
+    public static final RegistryObject<Item> LILLY_SHIRT = ITEMS.register("lilly_shirt",
+            () -> new ArmorItem(ModArmorMaterials.LILLY, ArmorItem.Type.CHESTPLATE, new  Item.Properties()));
 
     public static final RegistryObject<Item> SKULY_MASK = ITEMS.register("skuly_mask",
             () -> new ArmorItem(ModArmorMaterials.SKULY, ArmorItem.Type.HELMET, new  Item.Properties()));

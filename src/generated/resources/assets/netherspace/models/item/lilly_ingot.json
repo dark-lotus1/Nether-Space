@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "netherspace:item/hayden_ingot"
+    "layer0": "netherspace:item/lilly_ingot"
   }
 }

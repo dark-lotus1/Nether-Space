@@ -47,6 +47,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.LUMIX_INGOT);
         simpleItem(ModItems.SKULY_INGOT);
         simpleItem(ModItems.HORI_INGOT);
+        simpleItem(ModItems.PYRRHA_INGOT);
+        simpleItem(ModItems.LILLY_INGOT);
         simpleItem(ModItems.RAW_NETHER);
 
         simpleItem(ModItems.METAL_DETECTOR);
@@ -94,6 +96,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.JAKE_CHESTPLATE);
         trimmedArmorItem(ModItems.JAKE_LEGGINGS);
         trimmedArmorItem(ModItems.JAKE_BOOTS);
+
+        trimmedArmorItem(ModItems.PYRRHA_TIARA);
+        trimmedArmorItem(ModItems.LILLY_SHIRT);
 
         trimmedArmorItem(ModItems.SKULY_MASK);
         trimmedArmorItem(ModItems.HORI_BOOTS);
