@@ -16,4 +16,9 @@ public class ModToolTiers {
             new ForgeTier(100, 999999999, 999999999, 999999999, 999999999,
                     ModTags.Blocks.NEEDS_NEITHER_TOOL, () -> Ingredient.of(ModItems.NETHER_INGOT.get())),
             new ResourceLocation(NetherSpace.MOD_ID, "nether_ingot"), List.of(Tiers.NETHERITE), List.of());
+
+    public static final Tier HAYDEN = TierSortingRegistry.registerTier(
+            new ForgeTier(100, 999999999, 999999999, 999999999, 999999999,
+                    ModTags.Blocks.NEEDS_NEITHER_TOOL, () -> Ingredient.of(ModItems.HAYDEN_INGOT.get())),
+            new ResourceLocation(NetherSpace.MOD_ID, "hayden_ingot"), List.of(Tiers.NETHERITE), List.of());
 }

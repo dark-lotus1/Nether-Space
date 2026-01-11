@@ -34,6 +34,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LILLY_INGOT = ITEMS.register("lilly_ingot",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HAYDEN_INGOT = ITEMS.register("hayden_ingot",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_NETHER = ITEMS.register("raw_nether",
             () -> new Item(new Item.Properties()));
 
@@ -64,6 +66,9 @@ public class ModItems {
             () -> new ShovelItem(ModToolTiers.NETHER, (int) Double.POSITIVE_INFINITY, (int) Double.POSITIVE_INFINITY, new  Item.Properties()));
     public static final RegistryObject<Item> NETHER_HOE = ITEMS.register("nether_hoe",
             () -> new HoeItem(ModToolTiers.NETHER, (int) Double.POSITIVE_INFINITY, (int) Double.POSITIVE_INFINITY, new  Item.Properties()));
+
+    public static final RegistryObject<Item> HAYDEN_AXE = ITEMS.register("hayden_axe",
+            () -> new AxeItem(ModToolTiers.HAYDEN, (int) Double.POSITIVE_INFINITY, (int) Double.POSITIVE_INFINITY, new  Item.Properties()));
 
     public static final RegistryObject<Item> LUMIX_GREAT_SWORD = ITEMS.register("lumix_great_sword",
             () -> new SwordItem(ModToolTiers.NETHER, 9999999, 0.1f, new  Item.Properties()));

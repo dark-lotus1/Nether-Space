@@ -29,6 +29,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HORI_INGOT.get());
                         output.accept(ModItems.PYRRHA_INGOT.get());
                         output.accept(ModItems.LILLY_INGOT.get());
+                        output.accept(ModItems.HAYDEN_INGOT.get());
                         output.accept(ModItems.RAW_NETHER.get());
 
                         output.accept(ModItems.METAL_DETECTOR.get());
@@ -47,6 +48,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.NETHER_PICKAXE.get());
                         output.accept(ModItems.NETHER_SHOVEL.get());
                         output.accept(ModItems.NETHER_HOE.get());
+
+                        output.accept(ModItems.HAYDEN_AXE.get());
 
                         output.accept(ModItems.LUMIX_GREAT_SWORD.get());
                         output.accept(ModItems.SKULLOX_MACE.get());

@@ -41,29 +41,37 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.BAR_BRAWL_MUSIC_DISC.get())
-                .add(ModItems.EERIE_EXPERIMENT_MUSIC_DISK.get())
-        ;
+                .add(ModItems.EERIE_EXPERIMENT_MUSIC_DISK.get());
 
         this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .add(ModItems.BAR_BRAWL_MUSIC_DISC.get())
-                .add(ModItems.EERIE_EXPERIMENT_MUSIC_DISK.get())
-        ;
+                .add(ModItems.EERIE_EXPERIMENT_MUSIC_DISK.get());
 
         this.tag(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.NETHER_LOG.get().asItem())
                 .add(ModBlocks.NETHER_WOOD.get().asItem())
                 .add(ModBlocks.STRIPPED_NETHER_LOG.get().asItem())
-                .add(ModBlocks.STRIPPED_NETHER_WOOD.get().asItem())
-        ;
+                .add(ModBlocks.STRIPPED_NETHER_WOOD.get().asItem());
 
         this.tag(ItemTags.PLANKS)
-                .add(ModBlocks.NETHER_PLANKS.get().asItem())
-        ;
+                .add(ModBlocks.NETHER_PLANKS.get().asItem());
 
         this.tag(ItemTags.SWORDS)
                 .add(ModItems.NETHER_SWORD.get())
                 .add(ModItems.LUMIX_GREAT_SWORD.get())
-                .add(ModItems.JORDAN_KATANA.get())
-        ;
+                .add(ModItems.JORDAN_KATANA.get());
+
+        this.tag(ItemTags.AXES)
+                .add(ModItems.NETHER_AXE.get())
+                .add(ModItems.HAYDEN_AXE.get());
+
+        this.tag(ItemTags.PICKAXES)
+                .add(ModItems.NETHER_PICKAXE.get());
+
+        this.tag(ItemTags.SHOVELS)
+                .add(ModItems.NETHER_SHOVEL.get());
+
+        this.tag(ItemTags.HOES)
+                .add(ModItems.NETHER_SHOVEL.get());
     }
 }

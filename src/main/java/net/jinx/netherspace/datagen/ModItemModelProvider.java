@@ -49,6 +49,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.HORI_INGOT);
         simpleItem(ModItems.PYRRHA_INGOT);
         simpleItem(ModItems.LILLY_INGOT);
+        simpleItem(ModItems.HAYDEN_INGOT);
         simpleItem(ModItems.RAW_NETHER);
 
         simpleItem(ModItems.METAL_DETECTOR);
@@ -82,6 +83,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.NETHER_PICKAXE);
         handheldItem(ModItems.NETHER_SHOVEL);
         handheldItem(ModItems.NETHER_HOE);
+
+        handheldItem(ModItems.HAYDEN_AXE);
 
         handheldItem(ModItems.LUMIX_GREAT_SWORD);
         handheldItem(ModItems.SKULLOX_MACE);

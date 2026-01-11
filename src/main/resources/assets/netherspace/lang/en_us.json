@@ -4,16 +4,26 @@
   "item.netherspace.lumix_ingot": "Lumix Ingot",
   "item.netherspace.skuly_ingot": "Skuly Ingot",
   "item.netherspace.hori_ingot": "Hori Ingot",
-  "item.netherspace.pyrha_ingot": "Pyrrha Ingot",
+  "item.netherspace.pyrrha_ingot": "Pyrrha Ingot",
+  "item.netherspace.lilly_ingot": "Lilly Ingot",
+  "item.netherspace.hayden_ingot": "Hayden Ingot",
   "item.netherspace.raw_nether": "Raw Nether",
+
+
 
   "item.netherspace.metal_detector": "Metal Detector",
 
+
+
   "item.netherspace.nether_upgrade_smithing_template": "Neither Upgrade Template",
+
+
 
   "item.netherspace.americas_fries": "Americas Fries",
   "item.netherspace.skittle": "Skeetol",
   "item.netherspace.mtg_swamp": "Magic: The Gathering Swamp",
+
+
 
   "item.netherspace.bar_brawl_music_disc": "Bar Brawl Music Disc",
   "item.netherspace.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
@@ -21,7 +31,11 @@
   "item.netherspace.eerie_experiment_music_disc": "Eerie Experiment Music Disc",
   "item.netherspace.eerie_experiment_music_disc.desc": "Jinx - Eerie Experiment",
 
+
+
   "item.netherspace.nethercone": "Neithercone",
+
+
 
   "item.netherspace.nether_sword": "Neither Sword",
   "item.netherspace.nether_axe": "Neither Axe",
@@ -29,33 +43,44 @@
   "item.netherspace.nether_shovel": "Neither Shovel",
   "item.netherspace.nether_hoe": "Neither Hoe",
 
+  "item.netherspace.hayden_axe": "Hayden's Axe",
+
   "item.netherspace.lumix_great_sword": "Lumix's Great Sword",
   "item.netherspace.skullox_mace": "Skullox's Mace",
   "item.netherspace.jordan_katana": "Jordan's Katana",
+
+
 
   "item.netherspace.nether_helmet": "Neither Helmet",
   "item.netherspace.nether_chestplate": "Neither Chestplate",
   "item.netherspace.nether_leggings": "Neither Leggings",
   "item.netherspace.nether_boots": "Neither Boots",
 
-  "item.netherspace.skittle_seeds": "Skeetol Seeds",
-
-  "item.netherspace.nether_boat": "Neither Boat",
-  "item.netherspace.nether_chest_boat": "Neither Chest Boat",
-
-
+  "item.netherspace.pyrrha_tiara": "Pyrrha's Tiara",
+  "item.netherspace.lilly_shirt": "Lilly's Shirt",
 
   "item.netherspace.jake_helmet": "Jake Helmet",
   "item.netherspace.jake_chestplate": "Jake Chestplate",
   "item.netherspace.jake_leggings": "Jake Leggings",
   "item.netherspace.jake_boots": "Jake Boots",
 
-  "item.netherspace.pyrrha_tiara": "Pyrrha's Tiara",
-
   "item.netherspace.skuly_mask": "Skuly's Mask",
   "item.netherspace.hori_boots": "Hori's Boots",
 
+
+
+  "item.netherspace.skittle_seeds": "Skeetol Seeds",
+
+
+
+  "item.netherspace.nether_boat": "Neither Boat",
+  "item.netherspace.nether_chest_boat": "Neither Chest Boat",
+
+
+
   "item.netherspace.rhino_spawn_egg": "Rhino Spawn Egg",
+
+
 
   "block.netherspace.nether_block": "Block of Nether",
   "block.netherspace.raw_nether_block": "Block of Raw Nether",
@@ -63,7 +88,11 @@
   "block.netherspace.nether_nether_ore": "Nether Neither Ore",
   "block.netherspace.end_stone_nether_ore": "Endstone Neither Ore",
 
+
+
   "block.netherspace.dragon_roar_block": "Dragon Roar",
+
+
 
   "block.netherspace.nether_stairs": "Neither Stairs",
   "block.netherspace.nether_slab": "Neither Slab",
@@ -75,9 +104,14 @@
   "block.netherspace.nether_door": "Neither Door",
   "block.netherspace.nether_trapdoor": "Neither Trapdoor",
 
+  "block.netherspace.nether_sign": "Neither Sign",
+  "block.netherspace.nether_hanging_sign": "Neither Sign",
+
 
 
   "block.netherspace.gem_polishing_station": "Gem Polishing Station",
+
+
 
   "block.netherspace.nether_log": "Neither Log",
   "block.netherspace.nether_wood": "Neither Wood",
@@ -85,18 +119,26 @@
   "block.netherspace.stripped_nether_wood": "Stripped Neither Wood",
   "block.netherspace.nether_planks": "Neither Planks",
   "block.netherspace.nether_leaves": "Neither Leaves",
-
-  "block.netherspace.nether_sign": "Neither Sign",
-  "block.netherspace.nether_hanging_sign": "Neither Sign",
-
   "block.netherspace.nether_sapling": "Neither Sapling",
+
+
+
   "block.netherspace.neither_portal": "Neither Portal",
+
+
 
   "tooltip.netherspace.metal_detector.tooltip": "Finds valuables under the interacted block!",
   "tooltip.netherspace.dragon_roar_block.tooltip": "A reminder of Her Majesty, The Tyrant Dragon Queen",
 
+
+
   "entity.minecraft.villager.netherspace.dragonmancer": "Dragonmancer Jake",
+
+
+
   "entity.minecraft.mod_chest_boat": "Boat with Chest",
+
+
 
   "sounds.netherspace.metal_detector_found_ore": "Metal Detector Jingle",
 

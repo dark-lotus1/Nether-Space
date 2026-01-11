@@ -1,7 +1,11 @@
-// 1.20.1	2026-01-10T13:21:16.8177208	Tags for minecraft:item mod id netherspace
+// 1.20.1	2026-01-10T22:26:46.5115575	Tags for minecraft:item mod id netherspace
+ff5d2cd7c4e96b800c0c889f041d31a12432a7c7 data/minecraft/tags/items/axes.json
 6221a66264db54565a22f748cdd0205b1336e44a data/minecraft/tags/items/creeper_drop_music_discs.json
+f6b7798ae6de06c28830e778e8014f25d2ad1a5c data/minecraft/tags/items/hoes.json
 24f91d926790a10d7c1043a307626cf5dbecaeb9 data/minecraft/tags/items/logs_that_burn.json
 6221a66264db54565a22f748cdd0205b1336e44a data/minecraft/tags/items/music_discs.json
+fd54b390c9ec6706fcfefc5fd0b6e652d9e4bf45 data/minecraft/tags/items/pickaxes.json
 b576594d1c6adc19a65f9a1f8611ed9c854424f1 data/minecraft/tags/items/planks.json
+f6b7798ae6de06c28830e778e8014f25d2ad1a5c data/minecraft/tags/items/shovels.json
 9e9e09a557e02bc8abab85e676a8f2fc0b49e5c8 data/minecraft/tags/items/swords.json
 8b57f11d68762ec20595d2b100d3c1341cf9d6a2 data/minecraft/tags/items/trimmable_armor.json
