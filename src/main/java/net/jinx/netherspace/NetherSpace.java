@@ -16,6 +16,7 @@ import net.jinx.netherspace.sound.ModSounds;
 import net.jinx.netherspace.util.ModWoodTypes;
 import net.jinx.netherspace.villager.ModVillagers;
 import net.jinx.netherspace.worldgen.biome.ModTerraBlenderAPI;
+import net.jinx.netherspace.worldgen.biome.ModTerrablender;
 import net.jinx.netherspace.worldgen.biome.surface.ModSurfaceRules;
 import net.jinx.netherspace.worldgen.tree.ModFoliagePlacers;
 import net.jinx.netherspace.worldgen.tree.ModTrunkPlacerTypes;
@@ -63,6 +64,7 @@ public class NetherSpace {
         ModTrunkPlacerTypes.register(modEventBus);
         ModFoliagePlacers.register(modEventBus);
 
+        ModTerrablender.registerBiomes();
         ModTerraBlenderAPI.registerRegions();
 
         modEventBus.addListener(this::commonSetup);
